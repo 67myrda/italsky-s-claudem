@@ -25,7 +25,12 @@
         "title": "\"gn\" = ň",
         "text": "Skupina \"gn\" se čte jako české \"ň\". Bologna = Boloňa, lasagne = lazaňe."
       },
-      "variation": "Zkus to samé s 'un tè' (čaj) nebo 'un'acqua' (voda) – všimni si změny členu."
+      "variations": [
+        "Un tè, per favore. (Čaj, prosím.) – samohláska, ale 'tè' je mužský rod, takže zůstává 'un'.",
+        "Un'acqua, per favore. (Vodu, prosím.) – ženský rod + samohláska = 'un''.",
+        "Anche un succo d'arancia. (Taky pomerančový džus.)",
+        "Quanto costano due cappuccini? (Kolik stojí dvě cappuccina?)"
+      ]
     },
     {
       "day": 2,
@@ -35,7 +40,7 @@
       "dialogue": [
         { "it": "Buonasera, ho una prenotazione.", "cz": "Dobrý večer, mám rezervaci." },
         { "it": "A che nome, prego?", "cz": "Na jaké jméno, prosím?" },
-        { "it": "A nome Novák, per due notti.", "cz": "Na jméno Novák, na dvě noci." },
+        { "it": "A nome Myrda, per due notti.", "cz": "Na jméno Myrda, na dvě noci." },
         { "it": "Perfetto. La camera è al primo piano.", "cz": "Výborně. Pokoj je v prvním patře." }
       ],
       "vocab": [
@@ -52,7 +57,12 @@
         "title": "\"c\" před e/i = č",
         "text": "\"c\" se čte jako \"č\" před e nebo i (cento = čento), ale jako \"k\" před a/o/u (camera = kamera)."
       },
-      "variation": "Změň počet nocí (tre notti, quattro notti) a jméno – aktivně si poskládej vlastní rezervaci."
+      "variations": [
+        "A nome Myrda e Monica, per tre notti. (Na jméno Myrda a Monica, na tři noci.)",
+        "C'è una camera con vista? (Je tu pokoj s výhledem?)",
+        "A che ora è la colazione? (V kolik hodin je snídaně?)",
+        "Zdvořile (Lei): Avrei una prenotazione a nome Myrda. (Měl bych rezervaci na jméno Myrda.)"
+      ]
     },
     {
       "day": 3,
@@ -61,8 +71,8 @@
       "emoji": "👥",
       "dialogue": [
         { "it": "Come ti chiami?", "cz": "Jak se jmenuješ?" },
-        { "it": "Mi chiamo Petr, e questa è Monica.", "cz": "Jmenuji se Petr, a tohle je Monika." },
-        { "it": "Siamo di Náchod, in Repubblica Ceca.", "cz": "Jsme z Náchodu, v České republice." },
+        { "it": "Mi chiamo Myrda, e questa è Monica.", "cz": "Jmenuji se Myrda, a tohle je Monica." },
+        { "it": "Siamo di Náchod, vicino al confine con la Polonia.", "cz": "Jsme z Náchodu, blízko hranic s Polskem." },
         { "it": "Piacere! Siete in vacanza?", "cz": "Potěšení! Jste na dovolené?" }
       ],
       "vocab": [
@@ -79,7 +89,12 @@
         "title": "\"ch\" = k",
         "text": "\"ch\" se čte jako \"k\" (chiamo = kjamo, perché = perke). Nikdy jako české \"ch\"."
       },
-      "variation": "Zkus představit jen sebe (Mi chiamo...) nebo přidat \"siamo sposati\" (jsme manželé) / \"siamo una coppia\" (jsme pár)."
+      "variations": [
+        "Siamo una coppia della Repubblica Ceca. (Jsme pár z České republiky.)",
+        "Io sono Myrda e lei è la mia compagna, Monica. (Já jsem Myrda a tohle je má partnerka, Monica.)",
+        "Siamo qui per una settimana. (Jsme tu na týden.)",
+        "Zdvořile (Lei): Come si chiama, scusi? (Jak se jmenujete, prosím?)"
+      ]
     },
     {
       "day": 4,
@@ -106,7 +121,12 @@
         "title": "\"sc\" před e/i = š",
         "text": "\"sc\" se čte jako \"š\" před e/i (scusi = škuzi, pesce = peše), ale jako \"sk\" před a/o/u (scarpa = skarpa)."
       },
-      "variation": "Nahraď 'pomodori' za 'formaggio', 'pane' (chléb) nebo 'vino' (víno) – stejná struktura, jiné zboží."
+      "variations": [
+        "Avete del pane fresco? (Máte čerstvý chléb?)",
+        "Posso pagare con la carta? (Můžu zaplatit kartou?)",
+        "Vorrei mezzo chilo di formaggio. (Chtěl bych půl kila sýra.)",
+        "Zdvořile (Lei): Potrei assaggiare, per favore? (Mohl bych zkusit, prosím?)"
+      ]
     },
     {
       "day": 5,
@@ -116,7 +136,7 @@
       "dialogue": [
         { "it": "Cosa mi consiglia?", "cz": "Co mi doporučíte?" },
         { "it": "Le lasagne sono molto buone qui.", "cz": "Lasagne jsou tady velmi dobré." },
-        { "it": "Va bene, prendo quelle. E per lei?", "cz": "Dobře, dám si ty. A pro vás?" },
+        { "it": "Va bene, prendo quelle. E per lei, Monica?", "cz": "Dobře, dám si ty. A pro vás, Monica?" },
         { "it": "Per me, un risotto, grazie.", "cz": "Pro mě risotto, děkuji." }
       ],
       "vocab": [
@@ -133,7 +153,12 @@
         "title": "Zdvojené souhlásky se vyslovují déle",
         "text": "\"Buono\" má krátké \"o\" uprostřed, ale třeba \"nonno\" (dědeček) má dvojité \"n\" – vyslov ho déle/silněji než jedno \"n\"."
       },
-      "variation": "Zkus 'prendo la pizza' nebo 'prendo il tiramisù' – aktivně si objednej, co bys reálně chtěl."
+      "variations": [
+        "Prendo la pizza margherita. (Dám si pizzu margheritu.)",
+        "Monica prende il tiramisù. (Monica si dá tiramisu.)",
+        "Per noi due, una bottiglia di vino rosso. (Pro nás dva láhev červeného vína.)",
+        "Zdvořile (Lei): Cosa ci consiglia oggi? (Co nám dnes doporučíte?)"
+      ]
     },
     {
       "day": 6,
@@ -143,7 +168,7 @@
       "dialogue": [
         { "it": "Che tempo fa oggi?", "cz": "Jaké je dnes počasí?" },
         { "it": "Fa caldo, c'è il sole.", "cz": "Je teplo, je slunečno." },
-        { "it": "Domani andiamo a Bergamo.", "cz": "Zítra jedeme do Bergama." },
+        { "it": "Domani Myrda e Monica vanno a Bergamo.", "cz": "Zítra Myrda a Monica jedou do Bergama." },
         { "it": "Che bello! Buon viaggio!", "cz": "To je krásné! Šťastnou cestu!" }
       ],
       "vocab": [
@@ -160,7 +185,12 @@
         "title": "\"Bergamo\" – přízvuk",
         "text": "Přízvuk je na první slabice: BER-ga-mo. Italská slova mají často přízvuk na předposlední slabice, ale jsou výjimky – Bergamo je jedna z nich."
       },
-      "variation": "Změň místo (andiamo a Milano, a Venezia) a počasí (piove = prší, c'è vento = fouká vítr)."
+      "variations": [
+        "Noi andiamo a Bergamo la settimana prossima. (Jedeme do Bergama příští týden.)",
+        "Piove, ma domani c'è il sole. (Prší, ale zítra bude slunečno.)",
+        "Che tempo fa a Bergamo in questo periodo? (Jaké je počasí v Bergamu v tuto dobu?)",
+        "Zdvořile (Lei): Sa che tempo farà domani? (Nevíte, jaké bude zítra počasí?)"
+      ]
     },
     {
       "day": 7,
@@ -170,5 +200,109 @@
       "isSummary": true,
       "summaryOf": [1, 2, 3, 4, 5, 6]
     }
-  ]
+  ],
+  "phrasebook": {
+    "title": "Základní přežití",
+    "subtitle": "Když nerozumíš, mluví moc rychle, nebo potřebuješ pomoc",
+    "categories": [
+      {
+        "category": "Když nerozumím / potřebuju pomoc",
+        "emoji": "🆘",
+        "phrases": [
+          { "it": "Non capisco.", "cz": "Nerozumím." },
+          { "it": "Può parlare più lentamente, per favore?", "cz": "Můžete mluvit pomaleji, prosím? (zdvořile)" },
+          { "it": "Parli più lentamente, per favore?", "cz": "Mluv pomaleji, prosím? (tykání)" },
+          { "it": "Può ripetere, per favore?", "cz": "Můžete to zopakovat, prosím?" },
+          { "it": "Parlo poco italiano.", "cz": "Mluvím málo italsky." },
+          { "it": "Capisco solo se parla lentamente.", "cz": "Rozumím jen, když mluvíte pomalu." },
+          { "it": "Come si dice in italiano...?", "cz": "Jak se to řekne italsky...?" },
+          { "it": "Cosa significa questa parola?", "cz": "Co znamená to slovo?" },
+          { "it": "Può scriverlo, per favore?", "cz": "Můžete to napsat, prosím?" }
+        ]
+      },
+      {
+        "category": "Zdvořilostní fráze",
+        "emoji": "🙏",
+        "phrases": [
+          { "it": "Grazie mille.", "cz": "Mnohokrát děkuji." },
+          { "it": "Prego.", "cz": "Není zač / Prosím (odpověď na děkuji)." },
+          { "it": "Mi scusi.", "cz": "Promiňte (zdvořile, k cizímu)." },
+          { "it": "Scusa.", "cz": "Promiň (tykání)." },
+          { "it": "Mi dispiace.", "cz": "Je mi líto / Omlouvám se." },
+          { "it": "Per favore.", "cz": "Prosím (žádost)." },
+          { "it": "Con piacere.", "cz": "S radostí / Rád(a)." },
+          { "it": "Non c'è problema.", "cz": "Není problém." }
+        ]
+      },
+      {
+        "category": "Běžné fráze na ulici",
+        "emoji": "🚶",
+        "phrases": [
+          { "it": "Scusi, dov'è il bagno?", "cz": "Promiňte, kde je záchod?" },
+          { "it": "Quanto è lontano?", "cz": "Jak daleko to je?" },
+          { "it": "Si può andare a piedi?", "cz": "Lze to dojít pěšky?" },
+          { "it": "Dove siamo?", "cz": "Kde jsme?" },
+          { "it": "Mi può aiutare, per favore?", "cz": "Můžete mi pomoct, prosím?" },
+          { "it": "A che ora apre/chiude?", "cz": "V kolik hodin otevírá/zavírá?" }
+        ]
+      },
+      {
+        "category": "V obchodě / restauraci",
+        "emoji": "🛍️",
+        "phrases": [
+          { "it": "Sto solo guardando, grazie.", "cz": "Jen se dívám, děkuji." },
+          { "it": "Posso pagare con la carta?", "cz": "Můžu platit kartou?" },
+          { "it": "Il conto, per favore.", "cz": "Účet, prosím." },
+          { "it": "È incluso il servizio?", "cz": "Je v tom zahrnutý servis?" },
+          { "it": "Avete il wifi?", "cz": "Máte wifi?" },
+          { "it": "Vorrei un tavolo per due.", "cz": "Chtěl bych stůl pro dva." }
+        ]
+      }
+    ]
+  },
+  "customs": {
+    "title": "Italské zvyklosti",
+    "subtitle": "Co se hodí vědět, než vyrazíte",
+    "categories": [
+      {
+        "category": "V restauraci a kavárně",
+        "emoji": "🍽️",
+        "notes": [
+          "Espresso u barového pultu je levnější než u stolu – Italové ho často vypijí stoje za pár sekund.",
+          "Cappuccino se pije jen ráno/dopoledne. Objednat ho po obědě je u Italů nezvyklé (i když ti ho samozřejmě udělají).",
+          "'Il conto' (účet) nepřinesou automaticky – musíš si o něj požádat, jinak u stolu klidně proseď hodinu.",
+          "Servis (mancia) se nedává povinně jako v USA – stačí zaokrouhlit nebo nechat drobné, pokud jsi spokojen.",
+          "Coperto/servizio – malý poplatek za 'prostření' bývá automaticky na účtu, není to chyba."
+        ]
+      },
+      {
+        "category": "Na záchodě",
+        "emoji": "🚻",
+        "notes": [
+          "Veřejné záchody (bagno pubblico) bývají často placené (i tak malý poplatek jako 0,50-1 €).",
+          "V menších barech/kavárnách je zvykem, že záchod je primárně pro hosty – pokud si tam jen 'odskočíš', je slušné si dát aspoň espresso.",
+          "Ne všude je toaletní papír samozřejmostí – někdy ho má bager u vchodu, ne přímo v kabince."
+        ]
+      },
+      {
+        "category": "Doprava",
+        "emoji": "🚆",
+        "notes": [
+          "Lístek na vlak/autobus si MUSÍŠ na nástupišti/ve vozidle 'orazítkovat' (validare) v malém žlutém/zeleném automatu – jinak hrozí pokuta, i když máš platný lístek.",
+          "Italské vlaky rozlišují regionale (pomalý, levný) a často vyžadují i tak místenku u rychlejších spojů (Frecciarossa, Italo).",
+          "Parkování: modré čáry = placené, bílé = zdarma, žluté = vyhrazené (residenti, invalidé apod.)."
+        ]
+      },
+      {
+        "category": "Společenské normy",
+        "emoji": "🤝",
+        "notes": [
+          "Pozdrav 'Buongiorno' platí do odpoledne, poté 'Buonasera' (klidně už od cca 16-17h).",
+          "Při vstupu do menšího obchodu je zvyk pozdravit nahlas, i když nikoho konkrétního nevidíš.",
+          "Italové běžně chodí na pozdější večeři (20-21h je normální čas), restaurace před 19:30 mohou být ještě prázdné nebo zavřené.",
+          "Mnoho obchodů má siestu (zavřeno) odpoledne, typicky 13:00-15:30/16:00, hlavně v menších městech."
+        ]
+      }
+    ]
+  }
 }

@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Menu del Giorno — Italština</title>
+<title>Italsky s Claudem</title>
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 <style>
@@ -31,17 +31,65 @@
     min-height:100vh;
     -webkit-font-smoothing:antialiased;
   }
+
+  /* TOP BAR */
+  .topbar{
+    background:var(--ink);
+    color:var(--cream);
+    padding:13px 16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    position:sticky;
+    top:0;
+    z-index:50;
+    box-shadow:0 2px 12px rgba(0,0,0,0.12);
+  }
+  .topbar-flag{
+    display:flex;
+    gap:3px;
+    margin-right:10px;
+  }
+  .topbar-flag span{
+    width:5px;height:16px;border-radius:1px;
+    display:inline-block;
+  }
+  .topbar-title{
+    display:flex;
+    align-items:center;
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:17px;
+    letter-spacing:-0.01em;
+  }
+  .topbar-title em{font-style:italic;color:var(--gold);font-weight:500;}
+  .menu-btn{
+    background:rgba(255,255,255,0.1);
+    border:none;
+    color:var(--cream);
+    width:38px;height:38px;
+    border-radius:10px;
+    font-size:17px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:background 0.15s ease;
+  }
+  .menu-btn:hover{background:rgba(255,255,255,0.18);}
+
   .wrap{
     max-width:560px;
     margin:0 auto;
-    padding:20px 16px 64px;
+    padding:20px 16px 48px;
   }
 
   /* TABLET PORTRAIT (Xiaomi Tab 6 a podobné) */
   @media (min-width:760px){
-    .wrap{ max-width:760px; padding:36px 32px 90px; }
-    header{ padding:12px 0 28px; }
-    h1{ font-size:42px; }
+    .wrap{ max-width:760px; padding:32px 32px 70px; }
+    .topbar{ padding:16px 28px; }
+    .topbar-title{ font-size:19px; }
+    h1{ font-size:38px; }
     .eyebrow{ font-size:13px; }
 
     .menu-nav{ gap:10px; padding:4px 2px 22px; }
@@ -67,16 +115,16 @@
     .note{ padding:20px 22px; }
     .note-title{ font-size:15px; }
     .note-text{ font-size:15px; }
-    .variation{ font-size:15px; }
-    .shadow-tip{ font-size:14.5px; padding:18px 20px; }
+    .variation-item{ font-size:15px; }
     .done-btn{ font-size:16.5px; padding:16px; max-width:360px; margin-left:auto; margin-right:auto; display:block; }
     .progress-footer{ font-size:13.5px; }
+    .side-panel{ width:420px; }
   }
 
   /* HEADER */
   header{
     text-align:center;
-    padding:20px 0 24px;
+    padding:18px 0 22px;
   }
   .eyebrow{
     font-size:11px;
@@ -89,7 +137,7 @@
   h1{
     font-family:'Fraunces',serif;
     font-weight:600;
-    font-size:32px;
+    font-size:30px;
     margin:0;
     letter-spacing:-0.01em;
   }
@@ -265,27 +313,30 @@
   }
   .note-text{font-size:13.5px;line-height:1.5;color:var(--ink);}
 
-  .variation{
-    margin-top:14px;
+  /* VARIATIONS */
+  .variations-box{margin-top:14px;}
+  .variation-item{
     font-size:13.5px;
     line-height:1.5;
-    color:#6B6258;
-    font-style:italic;
-    padding-left:14px;
+    color:var(--ink);
+    padding:8px 0 8px 14px;
     border-left:3px solid var(--olive);
+    margin-bottom:6px;
   }
 
-  /* SHADOW TIP */
-  .shadow-tip{
-    margin-top:18px;
-    background:var(--ink);
-    color:var(--cream);
-    border-radius:14px;
-    padding:14px 16px;
-    font-size:13px;
-    line-height:1.5;
+  /* SHADOW TIP - compact pill */
+  .shadow-tip-mini{
+    margin-top:14px;
+    display:inline-flex;
+    align-items:center;
+    gap:6px;
+    background:rgba(43,37,32,0.06);
+    color:#6B6258;
+    border-radius:20px;
+    padding:6px 12px;
+    font-size:11.5px;
+    line-height:1.3;
   }
-  .shadow-tip b{color:var(--gold);}
 
   /* DONE BUTTON */
   .done-btn{
@@ -324,13 +375,163 @@
     margin-bottom:6px;
   }
 
+  /* APP FOOTER */
+  .app-footer{
+    text-align:center;
+    font-size:11.5px;
+    color:#a39a8d;
+    padding:28px 16px 20px;
+  }
+
+  /* SIDE PANEL */
+  .overlay{
+    position:fixed; inset:0;
+    background:rgba(43,37,32,0.45);
+    opacity:0;
+    pointer-events:none;
+    transition:opacity 0.25s ease;
+    z-index:90;
+  }
+  .overlay.open{opacity:1;pointer-events:auto;}
+  .side-panel{
+    position:fixed;
+    top:0; right:0;
+    height:100%;
+    width:88vw;
+    max-width:400px;
+    background:var(--cream);
+    z-index:100;
+    transform:translateX(100%);
+    transition:transform 0.28s cubic-bezier(.4,0,.2,1);
+    box-shadow:-8px 0 30px rgba(0,0,0,0.15);
+    display:flex;
+    flex-direction:column;
+  }
+  .side-panel.open{transform:translateX(0);}
+  .panel-header{
+    background:var(--ink);
+    color:var(--cream);
+    padding:16px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    flex:0 0 auto;
+  }
+  .panel-header-title{font-family:'Fraunces',serif;font-weight:600;font-size:17px;}
+  .panel-close{
+    background:rgba(255,255,255,0.1);
+    border:none;color:var(--cream);
+    width:32px;height:32px;border-radius:8px;
+    font-size:16px;cursor:pointer;
+  }
+  .panel-tabs{
+    display:flex;
+    flex:0 0 auto;
+    border-bottom:1px solid var(--line);
+    background:var(--paper);
+    overflow-x:auto;
+  }
+  .panel-tab{
+    flex:1;
+    padding:12px 6px;
+    text-align:center;
+    font-size:11.5px;
+    font-weight:600;
+    color:#9a9082;
+    cursor:pointer;
+    border-bottom:2.5px solid transparent;
+    white-space:nowrap;
+  }
+  .panel-tab.active{color:var(--brick);border-bottom-color:var(--brick);}
+  .panel-body{
+    flex:1;
+    overflow-y:auto;
+    padding:16px;
+  }
+  .panel-search{
+    width:100%;
+    padding:11px 14px;
+    border-radius:12px;
+    border:1.5px solid var(--line);
+    font-size:14px;
+    font-family:'Inter',sans-serif;
+    margin-bottom:14px;
+    background:var(--paper);
+    color:var(--ink);
+  }
+  .panel-search:focus{outline:none;border-color:var(--brick);}
+  .panel-section-title{
+    font-size:11px;
+    letter-spacing:0.1em;
+    text-transform:uppercase;
+    font-weight:700;
+    color:var(--olive-dark);
+    margin:16px 0 8px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .panel-section-title:first-child{margin-top:0;}
+  .panel-vocab-row{
+    display:flex;
+    justify-content:space-between;
+    align-items:baseline;
+    padding:9px 0;
+    border-bottom:1px solid var(--line);
+    font-size:13.5px;
+    gap:10px;
+  }
+  .panel-vocab-row .it{font-family:'Fraunces',serif;font-weight:500;}
+  .panel-vocab-row .cz{color:#6B6258;text-align:right;flex:0 0 auto;}
+  .panel-phrase-row{
+    background:var(--paper);
+    border-radius:10px;
+    padding:10px 12px;
+    margin-bottom:7px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:10px;
+  }
+  .panel-phrase-row .it{font-family:'Fraunces',serif;font-size:14px;font-weight:500;}
+  .panel-phrase-row .cz{font-size:12px;color:#6B6258;margin-top:2px;}
+  .panel-phrase-play{
+    flex:0 0 auto;
+    width:28px;height:28px;border-radius:50%;
+    border:none;background:var(--cream);color:var(--brick);
+    font-size:11px;cursor:pointer;
+  }
+  .panel-note{
+    background:var(--paper);
+    border-radius:10px;
+    padding:11px 13px;
+    margin-bottom:7px;
+    font-size:13px;
+    line-height:1.5;
+  }
+  .panel-empty{
+    text-align:center;
+    color:#a39a8d;
+    font-size:13px;
+    padding:30px 10px;
+  }
+
   @media (max-width:380px){
-    h1{font-size:27px;}
+    h1{font-size:26px;}
     .it{font-size:16.5px;}
+    .topbar-title{font-size:15px;}
   }
 </style>
 </head>
 <body>
+
+<div class="topbar">
+  <div class="topbar-title">
+    <span class="topbar-flag"><span style="background:#7A8B69"></span><span style="background:#FBF7F0"></span><span style="background:#C44536"></span></span>
+    Italsky <em>s Claudem</em>
+  </div>
+  <button class="menu-btn" id="openPanelBtn" aria-label="Otevřít menu">☰</button>
+</div>
 
 <div class="wrap">
 
@@ -347,9 +548,31 @@
 
 </div>
 
+<div class="app-footer">🇮🇹 © ⁶⁷〽️ with Claude🔆 2026</div>
+
+<!-- SIDE PANEL -->
+<div class="overlay" id="overlay"></div>
+<div class="side-panel" id="sidePanel">
+  <div class="panel-header">
+    <div class="panel-header-title">📚 Studijní materiály</div>
+    <button class="panel-close" id="closePanelBtn">✕</button>
+  </div>
+  <div class="panel-tabs" id="panelTabs">
+    <div class="panel-tab active" data-tab="vocab">🧺 Slovník</div>
+    <div class="panel-tab" data-tab="grammar">📐 Gramatika</div>
+    <div class="panel-tab" data-tab="pronunciation">🔊 Výslovnost</div>
+    <div class="panel-tab" data-tab="phrasebook">🆘 Fráze</div>
+    <div class="panel-tab" data-tab="customs">🇮🇹 Zvyklosti</div>
+  </div>
+  <div class="panel-body" id="panelBody"></div>
+</div>
+
 <script>
 let LESSONS = [];
+let PHRASEBOOK = null;
+let CUSTOMS = null;
 let currentDay = 1;
+let activeTab = 'vocab';
 let progress = JSON.parse(localStorage.getItem('it_progress') || '{}');
 
 const EMOJI_THEME = { gastro:'🍝', cestovani:'🧳', obecna:'💬', shrnuti:'📝' };
@@ -358,6 +581,8 @@ async function loadLessons(){
   const res = await fetch('lessons.json');
   const data = await res.json();
   LESSONS = data.lessons;
+  PHRASEBOOK = data.phrasebook || null;
+  CUSTOMS = data.customs || null;
   const lastOpened = localStorage.getItem('it_last_day');
   currentDay = lastOpened ? parseInt(lastOpened) : 1;
   renderNav();
@@ -386,7 +611,7 @@ function speak(text, btn){
   const itVoice = voices.find(v => v.lang.startsWith('it'));
   if (itVoice) utter.voice = itVoice;
 
-  document.querySelectorAll('.line-play.playing').forEach(b => b.classList.remove('playing'));
+  document.querySelectorAll('.line-play.playing, .panel-phrase-play.playing').forEach(b => b.classList.remove('playing'));
   if (btn) btn.classList.add('playing');
   utter.onend = () => { if (btn) btn.classList.remove('playing'); };
   window.speechSynthesis.speak(utter);
@@ -408,7 +633,7 @@ function renderLesson(day){
     <div class="card-label">${EMOJI_THEME[lesson.theme]} ${themeLabel} · Den ${lesson.day}</div>
     <div class="lesson-title">${lesson.emoji} ${lesson.title}</div>`;
 
-  lesson.dialogue.forEach((line, i) => {
+  lesson.dialogue.forEach((line) => {
     html += `<div class="line">
       <button class="line-play" data-text="${escapeAttr(line.it)}" onclick="speak(this.dataset.text, this)">▶</button>
       <div class="line-text">
@@ -434,9 +659,16 @@ function renderLesson(day){
       <div class="note-text">${lesson.pronunciation.text}</div>
     </div>`;
 
-  html += `<div class="variation">💡 Variace: ${lesson.variation}</div>`;
+  const variationsList = lesson.variations || (lesson.variation ? [lesson.variation] : []);
+  if (variationsList.length){
+    html += `<div class="sub-label">💡 Variace</div><div class="variations-box">`;
+    variationsList.forEach(v => {
+      html += `<div class="variation-item">${v}</div>`;
+    });
+    html += `</div>`;
+  }
 
-  html += `<div class="shadow-tip">🎯 <b>Shadowing tip:</b> Přehraj si větu (▶), pak ji zkus zopakovat současně s přehráváním. Pro ověření vlastní výslovnosti zkus i Google Translate — napiš větu česky a poslechni si italský překlad nahlas.</div>`;
+  html += `<div class="shadow-tip-mini">🎯 Shadowing: poslechni ▶ a opakuj současně</div>`;
 
   html += `</div>`;
 
@@ -479,7 +711,7 @@ function renderSummary(lesson, container){
     </div>`;
   });
 
-  html += `<div class="shadow-tip">🎯 Zkus si nahlas přečíst všechny dialogy z týdne ještě jednou — bez nahlížení na český překlad. Co si pamatuješ, je zažité. Co ne, vrať se k tomu dni zítra.</div>`;
+  html += `<div class="shadow-tip-mini">🎯 Zkus přečíst všechny dialogy znovu — bez nahlížení na překlad</div>`;
   html += `</div>`;
 
   html += `<button class="done-btn ${progress[lesson.day] ? 'is-done' : ''}" id="doneBtn">${progress[lesson.day] ? '✓ Hotovo' : 'Označit shrnutí jako hotové'}</button>`;
@@ -502,6 +734,111 @@ function updateProgressFooter(){
 
 function escapeAttr(s){
   return s.replace(/"/g,'&quot;');
+}
+
+/* ===== SIDE PANEL ===== */
+const overlay = document.getElementById('overlay');
+const sidePanel = document.getElementById('sidePanel');
+
+document.getElementById('openPanelBtn').onclick = () => openPanel();
+document.getElementById('closePanelBtn').onclick = () => closePanel();
+overlay.onclick = () => closePanel();
+
+function openPanel(){
+  overlay.classList.add('open');
+  sidePanel.classList.add('open');
+  renderPanel();
+}
+function closePanel(){
+  overlay.classList.remove('open');
+  sidePanel.classList.remove('open');
+}
+
+document.getElementById('panelTabs').addEventListener('click', (e) => {
+  const tab = e.target.closest('.panel-tab');
+  if (!tab) return;
+  document.querySelectorAll('.panel-tab').forEach(t => t.classList.remove('active'));
+  tab.classList.add('active');
+  activeTab = tab.dataset.tab;
+  renderPanel();
+});
+
+function renderPanel(){
+  const body = document.getElementById('panelBody');
+  if (activeTab === 'vocab') return renderPanelVocab(body);
+  if (activeTab === 'grammar') return renderPanelGrammar(body);
+  if (activeTab === 'pronunciation') return renderPanelPronunciation(body);
+  if (activeTab === 'phrasebook') return renderPanelPhrasebook(body);
+  if (activeTab === 'customs') return renderPanelCustoms(body);
+}
+
+function renderPanelVocab(body){
+  body.innerHTML = `<input type="text" class="panel-search" id="vocabSearch" placeholder="Hledat slovo (italsky nebo česky)...">
+    <div id="vocabList"></div>`;
+  const list = document.getElementById('vocabList');
+
+  function draw(filter){
+    let html = '';
+    const f = (filter || '').toLowerCase();
+    LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+      const matches = lesson.vocab.filter(v =>
+        !f || v.it.toLowerCase().includes(f) || v.cz.toLowerCase().includes(f)
+      );
+      if (!matches.length) return;
+      html += `<div class="panel-section-title">${lesson.emoji} Den ${lesson.day} — ${lesson.title}</div>`;
+      matches.forEach(v => {
+        html += `<div class="panel-vocab-row"><span class="it">${v.it}</span><span class="cz">${v.cz}</span></div>`;
+      });
+    });
+    list.innerHTML = html || `<div class="panel-empty">Nic nenalezeno.</div>`;
+  }
+  draw('');
+  document.getElementById('vocabSearch').addEventListener('input', (e) => draw(e.target.value));
+}
+
+function renderPanelGrammar(body){
+  let html = '';
+  LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+    html += `<div class="panel-section-title">${lesson.emoji} Den ${lesson.day} — ${lesson.title}</div>
+      <div class="panel-note"><b>${lesson.grammar.title}</b><br>${lesson.grammar.text}</div>`;
+  });
+  body.innerHTML = html;
+}
+
+function renderPanelPronunciation(body){
+  let html = '';
+  LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+    html += `<div class="panel-section-title">${lesson.emoji} Den ${lesson.day} — ${lesson.title}</div>
+      <div class="panel-note"><b>${lesson.pronunciation.title}</b><br>${lesson.pronunciation.text}</div>`;
+  });
+  body.innerHTML = html;
+}
+
+function renderPanelPhrasebook(body){
+  if (!PHRASEBOOK){ body.innerHTML = `<div class="panel-empty">Zatím nic k zobrazení.</div>`; return; }
+  let html = `<div style="font-size:12.5px;color:#6B6258;margin-bottom:14px;">${PHRASEBOOK.subtitle || ''}</div>`;
+  PHRASEBOOK.categories.forEach(cat => {
+    html += `<div class="panel-section-title">${cat.emoji} ${cat.category}</div>`;
+    cat.phrases.forEach(p => {
+      html += `<div class="panel-phrase-row">
+        <div><div class="it">${p.it}</div><div class="cz">${p.cz}</div></div>
+        <button class="panel-phrase-play" data-text="${escapeAttr(p.it)}" onclick="speak(this.dataset.text, this)">▶</button>
+      </div>`;
+    });
+  });
+  body.innerHTML = html;
+}
+
+function renderPanelCustoms(body){
+  if (!CUSTOMS){ body.innerHTML = `<div class="panel-empty">Zatím nic k zobrazení.</div>`; return; }
+  let html = `<div style="font-size:12.5px;color:#6B6258;margin-bottom:14px;">${CUSTOMS.subtitle || ''}</div>`;
+  CUSTOMS.categories.forEach(cat => {
+    html += `<div class="panel-section-title">${cat.emoji} ${cat.category}</div>`;
+    cat.notes.forEach(n => {
+      html += `<div class="panel-note">${n}</div>`;
+    });
+  });
+  body.innerHTML = html;
 }
 
 if ('speechSynthesis' in window) {
