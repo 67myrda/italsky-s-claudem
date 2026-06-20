@@ -34,8 +34,8 @@
 
   /* TOP BAR */
   .topbar{
-    background:var(--ink);
-    color:var(--cream);
+    background:linear-gradient(90deg, #5C6E4E 0%, #8FA07D 22%, #EDE6D6 50%, #D98F77 78%, #B8503D 100%);
+    color:var(--ink);
     padding:13px 16px;
     display:flex;
     align-items:center;
@@ -43,17 +43,9 @@
     position:sticky;
     top:0;
     z-index:50;
-    box-shadow:0 2px 12px rgba(0,0,0,0.12);
+    box-shadow:0 2px 12px rgba(43,37,32,0.18);
   }
-  .topbar-flag{
-    display:flex;
-    gap:3px;
-    margin-right:10px;
-  }
-  .topbar-flag span{
-    width:5px;height:16px;border-radius:1px;
-    display:inline-block;
-  }
+  .topbar-flag{display:none;}
   .topbar-title{
     display:flex;
     align-items:center;
@@ -62,11 +54,11 @@
     font-size:17px;
     letter-spacing:-0.01em;
   }
-  .topbar-title em{font-style:italic;color:var(--gold);font-weight:500;}
+  .topbar-title em{font-style:italic;color:var(--brick-dark);font-weight:600;}
   .menu-btn{
-    background:rgba(255,255,255,0.1);
+    background:rgba(43,37,32,0.12);
     border:none;
-    color:var(--cream);
+    color:var(--ink);
     width:38px;height:38px;
     border-radius:10px;
     font-size:17px;
@@ -76,7 +68,7 @@
     justify-content:center;
     transition:background 0.15s ease;
   }
-  .menu-btn:hover{background:rgba(255,255,255,0.18);}
+  .menu-btn:hover{background:rgba(43,37,32,0.2);}
 
   .wrap{
     max-width:560px;
@@ -115,7 +107,8 @@
     .note{ padding:20px 22px; }
     .note-title{ font-size:15px; }
     .note-text{ font-size:15px; }
-    .variation-item{ font-size:15px; }
+    .variation-text{ font-size:15px; }
+    .variation-play{ width:34px; height:34px; font-size:13px; }
     .done-btn{ font-size:16.5px; padding:16px; max-width:360px; margin-left:auto; margin-right:auto; display:block; }
     .progress-footer{ font-size:13.5px; }
     .side-panel{ width:420px; }
@@ -316,12 +309,37 @@
   /* VARIATIONS */
   .variations-box{margin-top:14px;}
   .variation-item{
+    display:flex;
+    align-items:flex-start;
+    gap:10px;
+    padding:9px 0 9px 12px;
+    border-left:3px solid var(--olive);
+    margin-bottom:6px;
+  }
+  .variation-play{
+    flex:0 0 auto;
+    width:28px;height:28px;
+    font-size:11px;
+    margin-top:1px;
+  }
+  .variation-text{
     font-size:13.5px;
     line-height:1.5;
     color:var(--ink);
-    padding:8px 0 8px 14px;
-    border-left:3px solid var(--olive);
-    margin-bottom:6px;
+    flex:1;
+  }
+  .lei-badge{
+    display:inline-block;
+    background:rgba(212,162,76,0.25);
+    color:var(--brick-dark);
+    font-size:10.5px;
+    font-weight:700;
+    text-transform:uppercase;
+    letter-spacing:0.04em;
+    border-radius:5px;
+    padding:2px 6px;
+    margin-right:7px;
+    vertical-align:middle;
   }
 
   /* SHADOW TIP - compact pill */
@@ -528,7 +546,7 @@
 <div class="topbar">
   <div class="topbar-title">
     <span class="topbar-flag"><span style="background:#7A8B69"></span><span style="background:#FBF7F0"></span><span style="background:#C44536"></span></span>
-    Italsky <em>s Claudem</em>
+    Italsky&nbsp;<em>s Claudem</em>
   </div>
   <button class="menu-btn" id="openPanelBtn" aria-label="Otevřít menu">☰</button>
 </div>
@@ -663,7 +681,17 @@ function renderLesson(day){
   if (variationsList.length){
     html += `<div class="sub-label">💡 Variace</div><div class="variations-box">`;
     variationsList.forEach(v => {
-      html += `<div class="variation-item">${v}</div>`;
+      let display = v;
+      let leiTag = '';
+      if (v.startsWith('⚜LEI⚜')){
+        leiTag = `<span class="lei-badge">Lei · zdvořile</span>`;
+        display = v.replace('⚜LEI⚜','');
+      }
+      const itPart = display.split(/\s*\(/)[0].trim();
+      html += `<div class="variation-item">
+        <button class="line-play variation-play" data-text="${escapeAttr(itPart)}" onclick="speak(this.dataset.text, this)">▶</button>
+        <div class="variation-text">${leiTag}${display}</div>
+      </div>`;
     });
     html += `</div>`;
   }
