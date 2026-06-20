@@ -1,0 +1,174 @@
+{
+  "lessons": [
+    {
+      "day": 1,
+      "title": "V kavárně",
+      "theme": "gastro",
+      "emoji": "☕",
+      "dialogue": [
+        { "it": "Buongiorno! Un cappuccino, per favore.", "cz": "Dobrý den! Jedno cappuccino, prosím." },
+        { "it": "Certo! Qualcos'altro?", "cz": "Jistě! Něco dalšího?" },
+        { "it": "Sì, anche un cornetto. Quanto costa?", "cz": "Ano, taky croissant. Kolik to stojí?" },
+        { "it": "Sono quattro euro.", "cz": "Je to čtyři eura." }
+      ],
+      "vocab": [
+        { "it": "il cappuccino", "cz": "cappuccino" },
+        { "it": "il cornetto", "cz": "croissant" },
+        { "it": "per favore", "cz": "prosím" },
+        { "it": "quanto costa?", "cz": "kolik to stojí?" }
+      ],
+      "grammar": {
+        "title": "Un / Una / Un'",
+        "text": "Mužský rod: \"un\" před souhláskou i samohláskou (un cappuccino, un espresso) – nikdy apostrof. Ženský rod: \"una\" před souhláskou (una pizza), \"un'\" před samohláskou (un'amica)."
+      },
+      "pronunciation": {
+        "title": "\"gn\" = ň",
+        "text": "Skupina \"gn\" se čte jako české \"ň\". Bologna = Boloňa, lasagne = lazaňe."
+      },
+      "variation": "Zkus to samé s 'un tè' (čaj) nebo 'un'acqua' (voda) – všimni si změny členu."
+    },
+    {
+      "day": 2,
+      "title": "Hledám ubytování",
+      "theme": "cestovani",
+      "emoji": "🏨",
+      "dialogue": [
+        { "it": "Buonasera, ho una prenotazione.", "cz": "Dobrý večer, mám rezervaci." },
+        { "it": "A che nome, prego?", "cz": "Na jaké jméno, prosím?" },
+        { "it": "A nome Novák, per due notti.", "cz": "Na jméno Novák, na dvě noci." },
+        { "it": "Perfetto. La camera è al primo piano.", "cz": "Výborně. Pokoj je v prvním patře." }
+      ],
+      "vocab": [
+        { "it": "la prenotazione", "cz": "rezervace" },
+        { "it": "la camera", "cz": "pokoj" },
+        { "it": "il piano", "cz": "patro" },
+        { "it": "per due notti", "cz": "na dvě noci" }
+      ],
+      "grammar": {
+        "title": "Číslovky 1-10",
+        "text": "uno, due, tre, quattro, cinque, sei, sette, otto, nove, dieci. Zapamatuj si \"due\" a \"tre\" – nejčastější při objednávání a rezervacích."
+      },
+      "pronunciation": {
+        "title": "\"c\" před e/i = č",
+        "text": "\"c\" se čte jako \"č\" před e nebo i (cento = čento), ale jako \"k\" před a/o/u (camera = kamera)."
+      },
+      "variation": "Změň počet nocí (tre notti, quattro notti) a jméno – aktivně si poskládej vlastní rezervaci."
+    },
+    {
+      "day": 3,
+      "title": "Kdo jsme",
+      "theme": "obecna",
+      "emoji": "👥",
+      "dialogue": [
+        { "it": "Come ti chiami?", "cz": "Jak se jmenuješ?" },
+        { "it": "Mi chiamo Petr, e questa è Monica.", "cz": "Jmenuji se Petr, a tohle je Monika." },
+        { "it": "Siamo di Náchod, in Repubblica Ceca.", "cz": "Jsme z Náchodu, v České republice." },
+        { "it": "Piacere! Siete in vacanza?", "cz": "Potěšení! Jste na dovolené?" }
+      ],
+      "vocab": [
+        { "it": "mi chiamo", "cz": "jmenuji se" },
+        { "it": "questa è / questo è", "cz": "tohle je (žena/muž)" },
+        { "it": "siamo", "cz": "jsme" },
+        { "it": "in vacanza", "cz": "na dovolené" }
+      ],
+      "grammar": {
+        "title": "Sloveso ESSERE (být)",
+        "text": "io sono, tu sei, lui/lei è, noi siamo, voi siete, loro sono. Nejdůležitější sloveso – použiješ ho v každé druhé větě."
+      },
+      "pronunciation": {
+        "title": "\"ch\" = k",
+        "text": "\"ch\" se čte jako \"k\" (chiamo = kjamo, perché = perke). Nikdy jako české \"ch\"."
+      },
+      "variation": "Zkus představit jen sebe (Mi chiamo...) nebo přidat \"siamo sposati\" (jsme manželé) / \"siamo una coppia\" (jsme pár)."
+    },
+    {
+      "day": 4,
+      "title": "Na trhu / v obchodě",
+      "theme": "gastro",
+      "emoji": "🍅",
+      "dialogue": [
+        { "it": "Mi scusi, avete dei pomodori freschi?", "cz": "Promiňte, máte čerstvá rajčata?" },
+        { "it": "Sì, questi sono di oggi.", "cz": "Ano, tyhle jsou dnešní." },
+        { "it": "Posso assaggiare il formaggio?", "cz": "Můžu zkusit ten sýr?" },
+        { "it": "Certo, ecco a lei.", "cz": "Jistě, tady máte." }
+      ],
+      "vocab": [
+        { "it": "il pomodoro", "cz": "rajče" },
+        { "it": "fresco/a", "cz": "čerstvý/á" },
+        { "it": "il formaggio", "cz": "sýr" },
+        { "it": "posso...?", "cz": "můžu...?" }
+      ],
+      "grammar": {
+        "title": "POTERE (moct) + infinitiv",
+        "text": "\"Posso\" + infinitiv = \"můžu udělat...\". Posso assaggiare (můžu zkusit), posso vedere (můžu vidět), posso pagare (můžu zaplatit). Velmi univerzální vzorec."
+      },
+      "pronunciation": {
+        "title": "\"sc\" před e/i = š",
+        "text": "\"sc\" se čte jako \"š\" před e/i (scusi = škuzi, pesce = peše), ale jako \"sk\" před a/o/u (scarpa = skarpa)."
+      },
+      "variation": "Nahraď 'pomodori' za 'formaggio', 'pane' (chléb) nebo 'vino' (víno) – stejná struktura, jiné zboží."
+    },
+    {
+      "day": 5,
+      "title": "Objednávka v restauraci",
+      "theme": "gastro",
+      "emoji": "🍝",
+      "dialogue": [
+        { "it": "Cosa mi consiglia?", "cz": "Co mi doporučíte?" },
+        { "it": "Le lasagne sono molto buone qui.", "cz": "Lasagne jsou tady velmi dobré." },
+        { "it": "Va bene, prendo quelle. E per lei?", "cz": "Dobře, dám si ty. A pro vás?" },
+        { "it": "Per me, un risotto, grazie.", "cz": "Pro mě risotto, děkuji." }
+      ],
+      "vocab": [
+        { "it": "consigliare", "cz": "doporučit" },
+        { "it": "prendo", "cz": "dám si / vezmu si" },
+        { "it": "buono/a", "cz": "dobrý/á (na chuť)" },
+        { "it": "per me / per lei", "cz": "pro mě / pro vás" }
+      ],
+      "grammar": {
+        "title": "Shoda přídavného jména",
+        "text": "Přídavné jméno se shoduje s rodem a číslem: il risotto buono (m., j.č.), la pasta buona (ž., j.č.), le lasagne buone (ž., mn.č.). Koncovka -o/-a/-i/-e."
+      },
+      "pronunciation": {
+        "title": "Zdvojené souhlásky se vyslovují déle",
+        "text": "\"Buono\" má krátké \"o\" uprostřed, ale třeba \"nonno\" (dědeček) má dvojité \"n\" – vyslov ho déle/silněji než jedno \"n\"."
+      },
+      "variation": "Zkus 'prendo la pizza' nebo 'prendo il tiramisù' – aktivně si objednej, co bys reálně chtěl."
+    },
+    {
+      "day": 6,
+      "title": "Počasí a plány",
+      "theme": "obecna",
+      "emoji": "☀️",
+      "dialogue": [
+        { "it": "Che tempo fa oggi?", "cz": "Jaké je dnes počasí?" },
+        { "it": "Fa caldo, c'è il sole.", "cz": "Je teplo, je slunečno." },
+        { "it": "Domani andiamo a Bergamo.", "cz": "Zítra jedeme do Bergama." },
+        { "it": "Che bello! Buon viaggio!", "cz": "To je krásné! Šťastnou cestu!" }
+      ],
+      "vocab": [
+        { "it": "che tempo fa?", "cz": "jaké je počasí?" },
+        { "it": "fa caldo / fa freddo", "cz": "je teplo / je chladno" },
+        { "it": "domani", "cz": "zítra" },
+        { "it": "il viaggio", "cz": "cesta, výlet" }
+      ],
+      "grammar": {
+        "title": "ANDARE (jet/jít) + A",
+        "text": "andare a + místo = jet/jít do (andiamo a Bergamo, vado a Roma). Před názvy měst se používá \"a\", ne \"in\" (to je pro země: in Italia)."
+      },
+      "pronunciation": {
+        "title": "\"Bergamo\" – přízvuk",
+        "text": "Přízvuk je na první slabice: BER-ga-mo. Italská slova mají často přízvuk na předposlední slabice, ale jsou výjimky – Bergamo je jedna z nich."
+      },
+      "variation": "Změň místo (andiamo a Milano, a Venezia) a počasí (piove = prší, c'è vento = fouká vítr)."
+    },
+    {
+      "day": 7,
+      "title": "Týdenní shrnutí",
+      "theme": "shrnuti",
+      "emoji": "📝",
+      "isSummary": true,
+      "summaryOf": [1, 2, 3, 4, 5, 6]
+    }
+  ]
+}

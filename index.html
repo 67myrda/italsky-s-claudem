@@ -1,0 +1,515 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Menu del Giorno — Italština</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:ital,opsz,wght@0,9..144,300;0,9..144,500;0,9..144,600;0,9..144,700;1,9..144,500&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --cream:#FBF7F0;
+    --ink:#2B2520;
+    --brick:#C44536;
+    --brick-dark:#A8392C;
+    --olive:#7A8B69;
+    --olive-dark:#647355;
+    --gold:#D4A24C;
+    --paper:#FFFFFF;
+    --line: rgba(43,37,32,0.12);
+    --shadow: 0 1px 2px rgba(43,37,32,0.04), 0 8px 24px rgba(43,37,32,0.08);
+  }
+  *{box-sizing:border-box;}
+  body{
+    margin:0;
+    background:var(--cream);
+    background-image:
+      radial-gradient(circle at 100% 0%, rgba(212,162,76,0.08), transparent 50%),
+      radial-gradient(circle at 0% 100%, rgba(122,139,105,0.08), transparent 50%);
+    color:var(--ink);
+    font-family:'Inter',sans-serif;
+    min-height:100vh;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{
+    max-width:560px;
+    margin:0 auto;
+    padding:20px 16px 64px;
+  }
+
+  /* TABLET PORTRAIT (Xiaomi Tab 6 a podobné) */
+  @media (min-width:760px){
+    .wrap{ max-width:760px; padding:36px 32px 90px; }
+    header{ padding:12px 0 28px; }
+    h1{ font-size:42px; }
+    .eyebrow{ font-size:13px; }
+
+    .menu-nav{ gap:10px; padding:4px 2px 22px; }
+    .day-pill{ width:68px; height:82px; border-radius:16px; }
+    .day-pill .num{ font-size:18px; }
+    .day-pill .emoji{ font-size:22px; }
+
+    .card{ padding:36px 40px; border-radius:24px; }
+    .lesson-title{ font-size:30px; }
+    .card-label{ font-size:13px; }
+
+    .line{ padding:18px 0; gap:16px; }
+    .line-play{ width:42px; height:42px; font-size:16px; }
+    .it{ font-size:21px; }
+    .cz{ font-size:15.5px; }
+
+    .sub-label{ font-size:13px; margin:28px 0 14px; }
+    .vocab-grid{ grid-template-columns:1fr 1fr 1fr; gap:10px; }
+    .vocab-chip{ padding:12px 14px; }
+    .vocab-chip .it{ font-size:16px; }
+    .vocab-chip .cz{ font-size:13px; }
+
+    .note{ padding:20px 22px; }
+    .note-title{ font-size:15px; }
+    .note-text{ font-size:15px; }
+    .variation{ font-size:15px; }
+    .shadow-tip{ font-size:14.5px; padding:18px 20px; }
+    .done-btn{ font-size:16.5px; padding:16px; max-width:360px; margin-left:auto; margin-right:auto; display:block; }
+    .progress-footer{ font-size:13.5px; }
+  }
+
+  /* HEADER */
+  header{
+    text-align:center;
+    padding:20px 0 24px;
+  }
+  .eyebrow{
+    font-size:11px;
+    letter-spacing:0.16em;
+    text-transform:uppercase;
+    color:var(--olive-dark);
+    font-weight:600;
+    margin-bottom:6px;
+  }
+  h1{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:32px;
+    margin:0;
+    letter-spacing:-0.01em;
+  }
+  h1 em{
+    font-style:italic;
+    font-weight:500;
+    color:var(--brick);
+  }
+
+  /* WEEK MENU NAV */
+  .menu-nav{
+    display:flex;
+    gap:8px;
+    overflow-x:auto;
+    padding:4px 2px 16px;
+    margin-bottom:8px;
+    scrollbar-width:none;
+  }
+  .menu-nav::-webkit-scrollbar{display:none;}
+  .day-pill{
+    flex:0 0 auto;
+    width:52px;
+    height:64px;
+    border-radius:14px;
+    border:1.5px solid var(--line);
+    background:var(--paper);
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+    gap:2px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    position:relative;
+  }
+  .day-pill .num{
+    font-family:'Fraunces',serif;
+    font-size:15px;
+    font-weight:600;
+    color:var(--ink);
+  }
+  .day-pill .emoji{font-size:17px;}
+  .day-pill.active{
+    border-color:var(--brick);
+    background:var(--brick);
+    box-shadow:var(--shadow);
+  }
+  .day-pill.active .num{color:var(--cream);}
+  .day-pill.done:not(.active)::after{
+    content:'';
+    position:absolute;
+    top:6px; right:6px;
+    width:6px; height:6px;
+    border-radius:50%;
+    background:var(--olive);
+  }
+
+  /* CARD */
+  .card{
+    background:var(--paper);
+    border-radius:20px;
+    padding:24px 22px;
+    box-shadow:var(--shadow);
+    margin-bottom:16px;
+  }
+  .card-label{
+    font-size:11px;
+    letter-spacing:0.14em;
+    text-transform:uppercase;
+    font-weight:600;
+    color:var(--olive-dark);
+    display:flex;
+    align-items:center;
+    gap:6px;
+    margin-bottom:10px;
+  }
+  .lesson-title{
+    font-family:'Fraunces',serif;
+    font-size:24px;
+    font-weight:600;
+    margin:0 0 18px;
+    display:flex;
+    align-items:center;
+    gap:10px;
+  }
+
+  /* DIALOGUE LINES */
+  .line{
+    padding:14px 0;
+    border-top:1px solid var(--line);
+    display:flex;
+    gap:12px;
+    align-items:flex-start;
+  }
+  .line:first-of-type{border-top:none;}
+  .line-play{
+    flex:0 0 auto;
+    width:34px;height:34px;
+    border-radius:50%;
+    border:none;
+    background:var(--cream);
+    color:var(--brick);
+    font-size:14px;
+    cursor:pointer;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    transition:all 0.15s ease;
+    margin-top:2px;
+  }
+  .line-play:hover{background:var(--brick);color:#fff;}
+  .line-play.playing{
+    background:var(--brick);
+    color:#fff;
+    animation:pulse 0.6s ease-in-out infinite;
+  }
+  @keyframes pulse{
+    0%,100%{box-shadow:0 0 0 0 rgba(196,69,54,0.4);}
+    50%{box-shadow:0 0 0 6px rgba(196,69,54,0);}
+  }
+  .line-text{flex:1;}
+  .it{
+    font-family:'Fraunces',serif;
+    font-size:18px;
+    font-weight:500;
+    line-height:1.4;
+  }
+  .cz{
+    font-size:14px;
+    color:#6B6258;
+    margin-top:2px;
+  }
+
+  /* SECTION HEADERS */
+  .sub-label{
+    font-size:11px;
+    letter-spacing:0.12em;
+    text-transform:uppercase;
+    font-weight:600;
+    color:var(--olive-dark);
+    margin:22px 0 10px;
+  }
+
+  /* VOCAB CHIPS */
+  .vocab-grid{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:8px;
+  }
+  .vocab-chip{
+    background:var(--cream);
+    border-radius:10px;
+    padding:9px 12px;
+  }
+  .vocab-chip .it{font-size:14px;font-weight:600;}
+  .vocab-chip .cz{font-size:12px;margin-top:1px;}
+
+  /* NOTE BOXES */
+  .note{
+    border-radius:14px;
+    padding:16px 16px;
+    margin-top:10px;
+  }
+  .note.grammar{background:rgba(212,162,76,0.14);border:1px solid rgba(212,162,76,0.3);}
+  .note.pronunciation{background:rgba(122,139,105,0.12);border:1px solid rgba(122,139,105,0.25);}
+  .note-title{
+    font-weight:700;
+    font-size:13.5px;
+    margin-bottom:4px;
+    display:flex;
+    align-items:center;
+    gap:6px;
+  }
+  .note-text{font-size:13.5px;line-height:1.5;color:var(--ink);}
+
+  .variation{
+    margin-top:14px;
+    font-size:13.5px;
+    line-height:1.5;
+    color:#6B6258;
+    font-style:italic;
+    padding-left:14px;
+    border-left:3px solid var(--olive);
+  }
+
+  /* SHADOW TIP */
+  .shadow-tip{
+    margin-top:18px;
+    background:var(--ink);
+    color:var(--cream);
+    border-radius:14px;
+    padding:14px 16px;
+    font-size:13px;
+    line-height:1.5;
+  }
+  .shadow-tip b{color:var(--gold);}
+
+  /* DONE BUTTON */
+  .done-btn{
+    width:100%;
+    margin-top:18px;
+    padding:14px;
+    border:none;
+    border-radius:14px;
+    background:var(--olive);
+    color:#fff;
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+  }
+  .done-btn.is-done{background:var(--cream);color:var(--olive-dark);border:1.5px solid var(--olive);}
+  .done-btn:active{transform:scale(0.98);}
+
+  /* PROGRESS FOOTER */
+  .progress-footer{
+    text-align:center;
+    font-size:12px;
+    color:#8a8076;
+    margin-top:8px;
+  }
+  .progress-footer b{color:var(--ink);}
+
+  /* SUMMARY VIEW */
+  .summary-block{margin-bottom:18px;}
+  .summary-day-label{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:15px;
+    color:var(--brick);
+    margin-bottom:6px;
+  }
+
+  @media (max-width:380px){
+    h1{font-size:27px;}
+    .it{font-size:16.5px;}
+  }
+</style>
+</head>
+<body>
+
+<div class="wrap">
+
+  <header>
+    <div class="eyebrow">Lezione del giorno</div>
+    <h1>Menu <em>del Giorno</em></h1>
+  </header>
+
+  <nav class="menu-nav" id="menuNav"></nav>
+
+  <div id="lessonContainer"></div>
+
+  <div class="progress-footer" id="progressFooter"></div>
+
+</div>
+
+<script>
+let LESSONS = [];
+let currentDay = 1;
+let progress = JSON.parse(localStorage.getItem('it_progress') || '{}');
+
+const EMOJI_THEME = { gastro:'🍝', cestovani:'🧳', obecna:'💬', shrnuti:'📝' };
+
+async function loadLessons(){
+  const res = await fetch('lessons.json');
+  const data = await res.json();
+  LESSONS = data.lessons;
+  const lastOpened = localStorage.getItem('it_last_day');
+  currentDay = lastOpened ? parseInt(lastOpened) : 1;
+  renderNav();
+  renderLesson(currentDay);
+}
+
+function renderNav(){
+  const nav = document.getElementById('menuNav');
+  nav.innerHTML = '';
+  LESSONS.forEach(l => {
+    const pill = document.createElement('div');
+    pill.className = 'day-pill' + (l.day === currentDay ? ' active' : '') + (progress[l.day] ? ' done' : '');
+    pill.innerHTML = `<div class="emoji">${l.emoji}</div><div class="num">${l.day}</div>`;
+    pill.onclick = () => { currentDay = l.day; localStorage.setItem('it_last_day', currentDay); renderNav(); renderLesson(currentDay); };
+    nav.appendChild(pill);
+  });
+}
+
+function speak(text, btn){
+  if (!('speechSynthesis' in window)) { alert('Tvůj prohlížeč nepodporuje hlasový výstup.'); return; }
+  window.speechSynthesis.cancel();
+  const utter = new SpeechSynthesisUtterance(text);
+  utter.lang = 'it-IT';
+  utter.rate = 0.85;
+  const voices = window.speechSynthesis.getVoices();
+  const itVoice = voices.find(v => v.lang.startsWith('it'));
+  if (itVoice) utter.voice = itVoice;
+
+  document.querySelectorAll('.line-play.playing').forEach(b => b.classList.remove('playing'));
+  if (btn) btn.classList.add('playing');
+  utter.onend = () => { if (btn) btn.classList.remove('playing'); };
+  window.speechSynthesis.speak(utter);
+}
+
+function renderLesson(day){
+  const lesson = LESSONS.find(l => l.day === day);
+  const container = document.getElementById('lessonContainer');
+  if (!lesson) { container.innerHTML = ''; return; }
+
+  if (lesson.isSummary){
+    renderSummary(lesson, container);
+    return;
+  }
+
+  const themeLabel = { gastro:'Gastro & jídlo', cestovani:'Cestování', obecna:'Obecná konverzace' }[lesson.theme] || '';
+
+  let html = `<div class="card">
+    <div class="card-label">${EMOJI_THEME[lesson.theme]} ${themeLabel} · Den ${lesson.day}</div>
+    <div class="lesson-title">${lesson.emoji} ${lesson.title}</div>`;
+
+  lesson.dialogue.forEach((line, i) => {
+    html += `<div class="line">
+      <button class="line-play" data-text="${escapeAttr(line.it)}" onclick="speak(this.dataset.text, this)">▶</button>
+      <div class="line-text">
+        <div class="it">${line.it}</div>
+        <div class="cz">${line.cz}</div>
+      </div>
+    </div>`;
+  });
+
+  html += `<div class="sub-label">🧺 Slovní zásoba</div><div class="vocab-grid">`;
+  lesson.vocab.forEach(v => {
+    html += `<div class="vocab-chip"><div class="it">${v.it}</div><div class="cz">${v.cz}</div></div>`;
+  });
+  html += `</div>`;
+
+  html += `<div class="note grammar">
+      <div class="note-title">📐 ${lesson.grammar.title}</div>
+      <div class="note-text">${lesson.grammar.text}</div>
+    </div>`;
+
+  html += `<div class="note pronunciation">
+      <div class="note-title">🔊 ${lesson.pronunciation.title}</div>
+      <div class="note-text">${lesson.pronunciation.text}</div>
+    </div>`;
+
+  html += `<div class="variation">💡 Variace: ${lesson.variation}</div>`;
+
+  html += `<div class="shadow-tip">🎯 <b>Shadowing tip:</b> Přehraj si větu (▶), pak ji zkus zopakovat současně s přehráváním. Pro ověření vlastní výslovnosti zkus i Google Translate — napiš větu česky a poslechni si italský překlad nahlas.</div>`;
+
+  html += `</div>`;
+
+  html += `<button class="done-btn ${progress[day] ? 'is-done' : ''}" id="doneBtn">${progress[day] ? '✓ Hotovo dnes' : 'Označit jako hotovo'}</button>`;
+
+  container.innerHTML = html;
+
+  document.getElementById('doneBtn').onclick = () => {
+    progress[day] = !progress[day];
+    localStorage.setItem('it_progress', JSON.stringify(progress));
+    renderNav();
+    renderLesson(day);
+  };
+
+  updateProgressFooter();
+}
+
+function renderSummary(lesson, container){
+  const days = lesson.summaryOf.map(d => LESSONS.find(l => l.day === d)).filter(Boolean);
+  let html = `<div class="card">
+    <div class="card-label">📝 Týdenní shrnutí</div>
+    <div class="lesson-title">${lesson.emoji} ${lesson.title}</div>
+    <div class="sub-label" style="margin-top:0;">Gramatika celého týdne</div>`;
+
+  days.forEach(d => {
+    html += `<div class="summary-block">
+      <div class="summary-day-label">Den ${d.day} — ${d.title}</div>
+      <div class="note grammar" style="margin-top:0;">
+        <div class="note-title">📐 ${d.grammar.title}</div>
+        <div class="note-text">${d.grammar.text}</div>
+      </div>
+    </div>`;
+  });
+
+  html += `<div class="sub-label">🔊 Výslovnostní pravidla</div>`;
+  days.forEach(d => {
+    html += `<div class="note pronunciation" style="margin-bottom:8px;">
+      <div class="note-title">${d.pronunciation.title}</div>
+      <div class="note-text">${d.pronunciation.text}</div>
+    </div>`;
+  });
+
+  html += `<div class="shadow-tip">🎯 Zkus si nahlas přečíst všechny dialogy z týdne ještě jednou — bez nahlížení na český překlad. Co si pamatuješ, je zažité. Co ne, vrať se k tomu dni zítra.</div>`;
+  html += `</div>`;
+
+  html += `<button class="done-btn ${progress[lesson.day] ? 'is-done' : ''}" id="doneBtn">${progress[lesson.day] ? '✓ Hotovo' : 'Označit shrnutí jako hotové'}</button>`;
+
+  container.innerHTML = html;
+  document.getElementById('doneBtn').onclick = () => {
+    progress[lesson.day] = !progress[lesson.day];
+    localStorage.setItem('it_progress', JSON.stringify(progress));
+    renderNav();
+    renderLesson(lesson.day);
+  };
+  updateProgressFooter();
+}
+
+function updateProgressFooter(){
+  const total = LESSONS.length;
+  const done = Object.values(progress).filter(Boolean).length;
+  document.getElementById('progressFooter').innerHTML = `<b>${done}/${total}</b> lekcí hotovo tento týden`;
+}
+
+function escapeAttr(s){
+  return s.replace(/"/g,'&quot;');
+}
+
+if ('speechSynthesis' in window) {
+  window.speechSynthesis.onvoiceschanged = () => {};
+}
+
+loadLessons();
+</script>
+
+</body>
+</html>
