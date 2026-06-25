@@ -1147,7 +1147,7 @@ function renderPanelVocab(body){
   function draw(filter){
     let html = '';
     const f = (filter || '').toLowerCase();
-    LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+    LESSONS.filter(l => l.type === 'new').forEach(lesson => {
       const matches = lesson.vocab.filter(v =>
         !f || v.it.toLowerCase().includes(f) || v.cz.toLowerCase().includes(f)
       );
@@ -1165,7 +1165,7 @@ function renderPanelVocab(body){
 
 function renderPanelGrammar(body){
   let html = '';
-  LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+  LESSONS.filter(l => l.type === 'new').forEach(lesson => {
     html += `<div class="panel-section-title">${lesson.emoji} Den ${lesson.day} — ${lesson.title}</div>
       <div class="panel-note"><b>${lesson.grammar.title}</b><br>${lesson.grammar.text}</div>`;
   });
@@ -1174,7 +1174,7 @@ function renderPanelGrammar(body){
 
 function renderPanelPronunciation(body){
   let html = '';
-  LESSONS.filter(l => !l.isSummary).forEach(lesson => {
+  LESSONS.filter(l => l.type === 'new').forEach(lesson => {
     html += `<div class="panel-section-title">${lesson.emoji} Den ${lesson.day} — ${lesson.title}</div>
       <div class="panel-note"><b>${lesson.pronunciation.title}</b><br>${lesson.pronunciation.text}</div>`;
   });
