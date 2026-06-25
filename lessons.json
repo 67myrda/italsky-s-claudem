@@ -6,16 +6,40 @@
       "theme": "gastro",
       "emoji": "☕",
       "dialogue": [
-        { "it": "Buongiorno! Un cappuccino, per favore.", "cz": "Dobrý den! Jedno cappuccino, prosím." },
-        { "it": "Certo! Qualcos'altro?", "cz": "Jistě! Něco dalšího?" },
-        { "it": "Sì, anche un cornetto. Quanto costa?", "cz": "Ano, taky croissant. Kolik to stojí?" },
-        { "it": "Sono quattro euro.", "cz": "Je to čtyři eura." }
+        {
+          "it": "Buongiorno! Un cappuccino, per favore.",
+          "cz": "Dobrý den! Jedno cappuccino, prosím."
+        },
+        {
+          "it": "Certo! Qualcos'altro?",
+          "cz": "Jistě! Něco dalšího?"
+        },
+        {
+          "it": "Sì, anche un cornetto. Quanto costa?",
+          "cz": "Ano, taky croissant. Kolik to stojí?"
+        },
+        {
+          "it": "Sono quattro euro.",
+          "cz": "Je to čtyři eura."
+        }
       ],
       "vocab": [
-        { "it": "il cappuccino", "cz": "cappuccino" },
-        { "it": "il cornetto", "cz": "croissant" },
-        { "it": "per favore", "cz": "prosím" },
-        { "it": "quanto costa?", "cz": "kolik to stojí?" }
+        {
+          "it": "il cappuccino",
+          "cz": "cappuccino"
+        },
+        {
+          "it": "il cornetto",
+          "cz": "croissant"
+        },
+        {
+          "it": "per favore",
+          "cz": "prosím"
+        },
+        {
+          "it": "quanto costa?",
+          "cz": "kolik to stojí?"
+        }
       ],
       "grammar": {
         "title": "Un / Una / Un'",
@@ -30,24 +54,56 @@
         "Un'acqua, per favore. (Vodu, prosím.) – ženský rod + samohláska = 'un''.",
         "Anche un succo d'arancia. (Taky pomerančový džus.)",
         "Quanto costano due cappuccini? (Kolik stojí dvě cappuccina?)"
-      ]
+      ],
+      "type": "new"
     },
     {
       "day": 2,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 3,
       "title": "Hledám ubytování",
       "theme": "cestovani",
       "emoji": "🏨",
       "dialogue": [
-        { "it": "Buonasera, ho una prenotazione.", "cz": "Dobrý večer, mám rezervaci." },
-        { "it": "A che nome, prego?", "cz": "Na jaké jméno, prosím?" },
-        { "it": "A nome Myrda, per due notti.", "cz": "Na jméno Myrda, na dvě noci." },
-        { "it": "Perfetto. La camera è al primo piano.", "cz": "Výborně. Pokoj je v prvním patře." }
+        {
+          "it": "Buonasera, ho una prenotazione.",
+          "cz": "Dobrý večer, mám rezervaci."
+        },
+        {
+          "it": "A che nome, prego?",
+          "cz": "Na jaké jméno, prosím?"
+        },
+        {
+          "it": "A nome Myrda, per due notti.",
+          "cz": "Na jméno Myrda, na dvě noci."
+        },
+        {
+          "it": "Perfetto. La camera è al primo piano.",
+          "cz": "Výborně. Pokoj je v prvním patře."
+        }
       ],
       "vocab": [
-        { "it": "la prenotazione", "cz": "rezervace" },
-        { "it": "la camera", "cz": "pokoj" },
-        { "it": "il piano", "cz": "patro" },
-        { "it": "per due notti", "cz": "na dvě noci" }
+        {
+          "it": "la prenotazione",
+          "cz": "rezervace"
+        },
+        {
+          "it": "la camera",
+          "cz": "pokoj"
+        },
+        {
+          "it": "il piano",
+          "cz": "patro"
+        },
+        {
+          "it": "per due notti",
+          "cz": "na dvě noci"
+        }
       ],
       "grammar": {
         "title": "Číslovky 1-10",
@@ -62,24 +118,56 @@
         "C'è una camera con vista? (Je tu pokoj s výhledem?)",
         "A che ora è la colazione? (V kolik hodin je snídaně?)",
         "⚜LEI⚜Avrei una prenotazione a nome Myrda. (Měl bych rezervaci na jméno Myrda.)"
-      ]
+      ],
+      "type": "new"
     },
     {
-      "day": 3,
+      "day": 4,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 5,
       "title": "Kdo jsme",
       "theme": "obecna",
       "emoji": "👥",
       "dialogue": [
-        { "it": "Come ti chiami?", "cz": "Jak se jmenuješ?" },
-        { "it": "Mi chiamo Myrda, e questa è Monica.", "cz": "Jmenuji se Myrda, a tohle je Monica." },
-        { "it": "Siamo di Náchod, vicino al confine con la Polonia.", "cz": "Jsme z Náchodu, blízko hranic s Polskem." },
-        { "it": "Piacere! Siete in vacanza?", "cz": "Potěšení! Jste na dovolené?" }
+        {
+          "it": "Come ti chiami?",
+          "cz": "Jak se jmenuješ?"
+        },
+        {
+          "it": "Mi chiamo Myrda, e questa è Monica.",
+          "cz": "Jmenuji se Myrda, a tohle je Monica."
+        },
+        {
+          "it": "Siamo di Náchod, vicino al confine con la Polonia.",
+          "cz": "Jsme z Náchodu, blízko hranic s Polskem."
+        },
+        {
+          "it": "Piacere! Siete in vacanza?",
+          "cz": "Potěšení! Jste na dovolené?"
+        }
       ],
       "vocab": [
-        { "it": "mi chiamo", "cz": "jmenuji se" },
-        { "it": "questa è / questo è", "cz": "tohle je (žena/muž)" },
-        { "it": "siamo", "cz": "jsme" },
-        { "it": "in vacanza", "cz": "na dovolené" }
+        {
+          "it": "mi chiamo",
+          "cz": "jmenuji se"
+        },
+        {
+          "it": "questa è / questo è",
+          "cz": "tohle je (žena/muž)"
+        },
+        {
+          "it": "siamo",
+          "cz": "jsme"
+        },
+        {
+          "it": "in vacanza",
+          "cz": "na dovolené"
+        }
       ],
       "grammar": {
         "title": "Sloveso ESSERE (být)",
@@ -94,24 +182,70 @@
         "Io sono Myrda e lei è la mia compagna, Monica. (Já jsem Myrda a tohle je má partnerka, Monica.)",
         "Siamo qui per una settimana. (Jsme tu na týden.)",
         "⚜LEI⚜Come si chiama, scusi? (Jak se jmenujete, prosím?)"
-      ]
+      ],
+      "type": "new"
     },
     {
-      "day": 4,
+      "day": 6,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 7,
+      "title": "Shrnutí",
+      "theme": "shrnuti",
+      "emoji": "📝",
+      "isSummary": true,
+      "type": "summary",
+      "summaryOf": [
+        1,
+        3,
+        5
+      ],
+      "reviewAll": true
+    },
+    {
+      "day": 8,
       "title": "Na trhu / v obchodě",
       "theme": "gastro",
       "emoji": "🍅",
       "dialogue": [
-        { "it": "Mi scusi, avete dei pomodori freschi?", "cz": "Promiňte, máte čerstvá rajčata?" },
-        { "it": "Sì, questi sono di oggi.", "cz": "Ano, tyhle jsou dnešní." },
-        { "it": "Posso assaggiare il formaggio?", "cz": "Můžu zkusit ten sýr?" },
-        { "it": "Certo, ecco a lei.", "cz": "Jistě, tady máte." }
+        {
+          "it": "Mi scusi, avete dei pomodori freschi?",
+          "cz": "Promiňte, máte čerstvá rajčata?"
+        },
+        {
+          "it": "Sì, questi sono di oggi.",
+          "cz": "Ano, tyhle jsou dnešní."
+        },
+        {
+          "it": "Posso assaggiare il formaggio?",
+          "cz": "Můžu zkusit ten sýr?"
+        },
+        {
+          "it": "Certo, ecco a lei.",
+          "cz": "Jistě, tady máte."
+        }
       ],
       "vocab": [
-        { "it": "il pomodoro", "cz": "rajče" },
-        { "it": "fresco/a", "cz": "čerstvý/á" },
-        { "it": "il formaggio", "cz": "sýr" },
-        { "it": "posso...?", "cz": "můžu...?" }
+        {
+          "it": "il pomodoro",
+          "cz": "rajče"
+        },
+        {
+          "it": "fresco/a",
+          "cz": "čerstvý/á"
+        },
+        {
+          "it": "il formaggio",
+          "cz": "sýr"
+        },
+        {
+          "it": "posso...?",
+          "cz": "můžu...?"
+        }
       ],
       "grammar": {
         "title": "POTERE (moct) + infinitiv",
@@ -126,24 +260,56 @@
         "Posso pagare con la carta? (Můžu zaplatit kartou?)",
         "Vorrei mezzo chilo di formaggio. (Chtěl bych půl kila sýra.)",
         "⚜LEI⚜Potrei assaggiare, per favore? (Mohl bych zkusit, prosím?)"
-      ]
+      ],
+      "type": "new"
     },
     {
-      "day": 5,
+      "day": 9,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 10,
       "title": "Objednávka v restauraci",
       "theme": "gastro",
       "emoji": "🍝",
       "dialogue": [
-        { "it": "Cosa mi consiglia?", "cz": "Co mi doporučíte?" },
-        { "it": "Le lasagne sono molto buone qui.", "cz": "Lasagne jsou tady velmi dobré." },
-        { "it": "Va bene, prendo quelle. E per lei, Monica?", "cz": "Dobře, dám si ty. A pro vás, Monica?" },
-        { "it": "Per me, un risotto, grazie.", "cz": "Pro mě risotto, děkuji." }
+        {
+          "it": "Cosa mi consiglia?",
+          "cz": "Co mi doporučíte?"
+        },
+        {
+          "it": "Le lasagne sono molto buone qui.",
+          "cz": "Lasagne jsou tady velmi dobré."
+        },
+        {
+          "it": "Va bene, prendo quelle. E per lei, Monica?",
+          "cz": "Dobře, dám si ty. A pro vás, Monica?"
+        },
+        {
+          "it": "Per me, un risotto, grazie.",
+          "cz": "Pro mě risotto, děkuji."
+        }
       ],
       "vocab": [
-        { "it": "consigliare", "cz": "doporučit" },
-        { "it": "prendo", "cz": "dám si / vezmu si" },
-        { "it": "buono/a", "cz": "dobrý/á (na chuť)" },
-        { "it": "per me / per lei", "cz": "pro mě / pro vás" }
+        {
+          "it": "consigliare",
+          "cz": "doporučit"
+        },
+        {
+          "it": "prendo",
+          "cz": "dám si / vezmu si"
+        },
+        {
+          "it": "buono/a",
+          "cz": "dobrý/á (na chuť)"
+        },
+        {
+          "it": "per me / per lei",
+          "cz": "pro mě / pro vás"
+        }
       ],
       "grammar": {
         "title": "Shoda přídavného jména",
@@ -158,24 +324,56 @@
         "Monica prende il tiramisù. (Monica si dá tiramisu.)",
         "Per noi due, una bottiglia di vino rosso. (Pro nás dva láhev červeného vína.)",
         "⚜LEI⚜Cosa ci consiglia oggi? (Co nám dnes doporučíte?)"
-      ]
+      ],
+      "type": "new"
     },
     {
-      "day": 6,
+      "day": 11,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 12,
       "title": "Počasí a plány",
       "theme": "obecna",
       "emoji": "☀️",
       "dialogue": [
-        { "it": "Che tempo fa oggi?", "cz": "Jaké je dnes počasí?" },
-        { "it": "Fa caldo, c'è il sole.", "cz": "Je teplo, je slunečno." },
-        { "it": "Domani Myrda e Monica vanno a Bergamo.", "cz": "Zítra Myrda a Monica jedou do Bergama." },
-        { "it": "Che bello! Buon viaggio!", "cz": "To je krásné! Šťastnou cestu!" }
+        {
+          "it": "Che tempo fa oggi?",
+          "cz": "Jaké je dnes počasí?"
+        },
+        {
+          "it": "Fa caldo, c'è il sole.",
+          "cz": "Je teplo, je slunečno."
+        },
+        {
+          "it": "Domani Myrda e Monica vanno a Bergamo.",
+          "cz": "Zítra Myrda a Monica jedou do Bergama."
+        },
+        {
+          "it": "Che bello! Buon viaggio!",
+          "cz": "To je krásné! Šťastnou cestu!"
+        }
       ],
       "vocab": [
-        { "it": "che tempo fa?", "cz": "jaké je počasí?" },
-        { "it": "fa caldo / fa freddo", "cz": "je teplo / je chladno" },
-        { "it": "domani", "cz": "zítra" },
-        { "it": "il viaggio", "cz": "cesta, výlet" }
+        {
+          "it": "che tempo fa?",
+          "cz": "jaké je počasí?"
+        },
+        {
+          "it": "fa caldo / fa freddo",
+          "cz": "je teplo / je chladno"
+        },
+        {
+          "it": "domani",
+          "cz": "zítra"
+        },
+        {
+          "it": "il viaggio",
+          "cz": "cesta, výlet"
+        }
       ],
       "grammar": {
         "title": "ANDARE (jet/jít) + A",
@@ -190,15 +388,441 @@
         "Piove, ma domani c'è il sole. (Prší, ale zítra bude slunečno.)",
         "Che tempo fa a Bergamo in questo periodo? (Jaké je počasí v Bergamu v tuto dobu?)",
         "⚜LEI⚜Sa che tempo farà domani? (Nevíte, jaké bude zítra počasí?)"
-      ]
+      ],
+      "type": "new"
     },
     {
-      "day": 7,
-      "title": "Týdenní shrnutí",
+      "day": 13,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 14,
+      "title": "Shrnutí",
       "theme": "shrnuti",
       "emoji": "📝",
       "isSummary": true,
-      "summaryOf": [1, 2, 3, 4, 5, 6]
+      "type": "summary",
+      "summaryOf": [
+        8,
+        10,
+        12
+      ],
+      "reviewAll": true
+    },
+    {
+      "day": 15,
+      "title": "Na nádraží",
+      "theme": "cestovani",
+      "emoji": "🚆",
+      "dialogue": [
+        {
+          "it": "Scusi, a che binario parte il treno per Bergamo?",
+          "cz": "Promiňte, z jakého nástupiště jede vlak do Bergama?"
+        },
+        {
+          "it": "Binario quattro, parte alle dieci.",
+          "cz": "Nástupiště čtyři, jede v deset."
+        },
+        {
+          "it": "Devo cambiare treno?",
+          "cz": "Musím přestupovat?"
+        },
+        {
+          "it": "No, è un treno diretto.",
+          "cz": "Ne, je to přímý vlak."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "il binario",
+          "cz": "nástupiště"
+        },
+        {
+          "it": "il treno",
+          "cz": "vlak"
+        },
+        {
+          "it": "cambiare",
+          "cz": "přestoupit / změnit"
+        },
+        {
+          "it": "diretto",
+          "cz": "přímý"
+        }
+      ],
+      "grammar": {
+        "title": "DOVERE (muset) + infinitiv",
+        "text": "\"Devo\" + infinitiv = \"musím udělat...\". Devo cambiare (musím přestoupit), devo partire (musím odjet). Podobně jako \"posso\" (potere), ale vyjadřuje povinnost, ne možnost."
+      },
+      "pronunciation": {
+        "title": "\"z\" – někdy k, někdy dz",
+        "text": "\"Stazione\" se čte se \"z\" jako české \"c\" (stacjone), ale \"zero\" má \"z\" jako \"dz\" (dzero). Bohužel není jednotné pravidlo – učí se slovo od slova."
+      },
+      "variations": [
+        "A che ora arriva il treno a Bergamo? (V kolik hodin dorazí vlak do Bergama?)",
+        "Vorrei un biglietto di andata e ritorno. (Chtěl bych zpáteční lístek.)",
+        "Il treno è in ritardo? (Má vlak zpoždění?)",
+        "⚜LEI⚜Mi può dire da che binario parte, per favore? (Můžete mi řict, z jakého nástupiště jede, prosím?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 16,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 17,
+      "title": "Aperitivo v baru",
+      "theme": "gastro",
+      "emoji": "🥂",
+      "dialogue": [
+        {
+          "it": "Cosa prendete per l'aperitivo?",
+          "cz": "Co si dáte na aperitivo?"
+        },
+        {
+          "it": "Io vorrei uno spritz.",
+          "cz": "Já bych chtěl spritz."
+        },
+        {
+          "it": "E per Monica, un bicchiere di vino bianco.",
+          "cz": "A pro Monicu skleničku bílého vína."
+        },
+        {
+          "it": "Arrivano subito con qualche stuzzichino.",
+          "cz": "Hned to bude, i s nějakými chuťovkami."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "l'aperitivo",
+          "cz": "aperitivo (předvečerní drink + snack)"
+        },
+        {
+          "it": "lo spritz",
+          "cz": "spritz (drink)"
+        },
+        {
+          "it": "il bicchiere",
+          "cz": "sklenice"
+        },
+        {
+          "it": "lo stuzzichino",
+          "cz": "chuťovka, malé občerstvení"
+        }
+      ],
+      "grammar": {
+        "title": "VORREI – zdvořilé \"chtěl bych\"",
+        "text": "\"Vorrei\" je zdvořilejší a univerzálnější než \"voglio\" (chci). Vorrei un caffè, vorrei prenotare... Použij \"vorrei\" vždy, když si něco objednáváš nebo o něco žádáš."
+      },
+      "pronunciation": {
+        "title": "\"qu\" = kv",
+        "text": "\"Qu\" se vždy čte jako \"kv\": qualche = kvalke, quanto = kvanto. Nikdy jako anglické \"kw\"."
+      },
+      "variations": [
+        "Vorrei un'acqua frizzante. (Chtěl bych perlivou vodu.)",
+        "Monica preferisce il vino rosso. (Monica preferuje červené víno.)",
+        "Cosa ci consiglia da bere? (Co nám doporučíte k pití?)",
+        "⚜LEI⚜Avete dell'aperitivo senza alcol? (Máte nealkoholické aperitivo?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 18,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 19,
+      "title": "O rodině",
+      "theme": "obecna",
+      "emoji": "👨‍👩‍👧",
+      "dialogue": [
+        {
+          "it": "Avete figli?",
+          "cz": "Máte děti?"
+        },
+        {
+          "it": "No, non abbiamo figli, ma abbiamo un gatto.",
+          "cz": "Ne, nemáme děti, ale máme kočku."
+        },
+        {
+          "it": "Anche i miei genitori vivono vicino a noi.",
+          "cz": "I moji rodiče žijí blízko nás."
+        },
+        {
+          "it": "Che bello avere la famiglia vicina!",
+          "cz": "To je krásné, mít rodinu blízko!"
+        }
+      ],
+      "vocab": [
+        {
+          "it": "i figli",
+          "cz": "děti (potomci)"
+        },
+        {
+          "it": "i genitori",
+          "cz": "rodiče"
+        },
+        {
+          "it": "il gatto",
+          "cz": "kočka"
+        },
+        {
+          "it": "vicino a",
+          "cz": "blízko"
+        }
+      ],
+      "grammar": {
+        "title": "Sloveso AVERE (mít)",
+        "text": "io ho, tu hai, lui/lei ha, noi abbiamo, voi avete, loro hanno. Druhé nejdůležitější sloveso po \"essere\" – pro vlastnictví i pro věk (ho 30 anni = je mi 30 let)."
+      },
+      "pronunciation": {
+        "title": "\"gli\" = lj",
+        "text": "Skupina \"gli\" se čte jako měkké \"lj\": figli = fiľi, famiglia = familja. Podobné jako italské \"gn\" = ň, jen pro \"l\"."
+      },
+      "variations": [
+        "Quanti anni hai? (Kolik je ti let?)",
+        "Myrda ha un fratello a Náchod. (Myrda má bratra v Náchodě.)",
+        "Monica ha due sorelle. (Monica má dvě sestry.)",
+        "⚜LEI⚜Ha animali domestici? (Máte domácí zvířata?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 20,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 21,
+      "title": "Shrnutí",
+      "theme": "shrnuti",
+      "emoji": "📝",
+      "isSummary": true,
+      "type": "summary",
+      "summaryOf": [
+        15,
+        17,
+        19
+      ],
+      "reviewAll": true
+    },
+    {
+      "day": 22,
+      "title": "Ptáme se na cestu",
+      "theme": "cestovani",
+      "emoji": "🗺️",
+      "dialogue": [
+        {
+          "it": "Scusi, come arrivo a Piazza Vecchia?",
+          "cz": "Promiňte, jak se dostanu na Piazza Vecchia?"
+        },
+        {
+          "it": "Vada dritto e poi giri a destra.",
+          "cz": "Jděte rovně a pak zatočte vpravo."
+        },
+        {
+          "it": "È lontano da qui?",
+          "cz": "Je to daleko odtud?"
+        },
+        {
+          "it": "No, sono solo cinque minuti a piedi.",
+          "cz": "Ne, je to jen pět minut pěšky."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "dritto",
+          "cz": "rovně"
+        },
+        {
+          "it": "a destra / a sinistra",
+          "cz": "vpravo / vlevo"
+        },
+        {
+          "it": "lontano",
+          "cz": "daleko"
+        },
+        {
+          "it": "a piedi",
+          "cz": "pěšky"
+        }
+      ],
+      "grammar": {
+        "title": "Zdvořilý rozkaz (Lei forma)",
+        "text": "\"Vada\" (jděte), \"giri\" (zatočte) jsou zdvořilé rozkazy pro neznámé lidi na ulici. Zatím je stačí znát jako celé fráze – gramatika rozkazovacího způsobu přijde později."
+      },
+      "pronunciation": {
+        "title": "\"gi/ge\" = dž",
+        "text": "\"Giri\" se čte \"džiri\", \"giorno\" = \"džorno\". Skupina \"gi\"/\"ge\" vždy zní jako anglické \"j\" ve slově \"job\"."
+      },
+      "variations": [
+        "Dov'è la stazione più vicina? (Kde je nejbližší nádraží?)",
+        "Posso andare a piedi o è meglio l'autobus? (Můžu jít pěšky, nebo je lepší autobus?)",
+        "Andiamo verso il centro. (Jdeme směrem do centra.)",
+        "⚜LEI⚜Mi potrebbe indicare la strada per la stazione? (Mohl byste mi ukázat cestu k nádraží?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 23,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 24,
+      "title": "V zmrzlinárně",
+      "theme": "gastro",
+      "emoji": "🍨",
+      "dialogue": [
+        {
+          "it": "Quali gusti avete oggi?",
+          "cz": "Jaké příchutě máte dnes?"
+        },
+        {
+          "it": "Abbiamo pistacchio, limone e cioccolato.",
+          "cz": "Máme pistácie, citron a čokoládu."
+        },
+        {
+          "it": "Vorrei un cono con due gusti, per favore.",
+          "cz": "Chtěl bych kornout se dvěma příchutěmi, prosím."
+        },
+        {
+          "it": "Pistacchio e limone, allora?",
+          "cz": "Pistácie a citron, tedy?"
+        }
+      ],
+      "vocab": [
+        {
+          "it": "il gusto",
+          "cz": "příchuť"
+        },
+        {
+          "it": "il cono",
+          "cz": "kornout"
+        },
+        {
+          "it": "la coppetta",
+          "cz": "kelímek (na zmrzlinu)"
+        },
+        {
+          "it": "il pistacchio",
+          "cz": "pistácie"
+        }
+      ],
+      "grammar": {
+        "title": "Množné číslo na -co/-go",
+        "text": "Slova na -co/-go přidávají v množném čísle \"h\", aby si zachovala tvrdou výslovnost: bianco→bianchi, lungo→lunghi. Bez \"h\" by se \"c\"/\"g\" změkčilo."
+      },
+      "pronunciation": {
+        "title": "Dvojhlásky se vyslovují odděleně",
+        "text": "\"Buono\" = \"bu-ono\" – obě hlásky zní zřetelně, rychle za sebou, ne jako jeden splynutý zvuk jako v angličtině."
+      },
+      "variations": [
+        "Posso assaggiare il gusto al pistacchio? (Můžu zkusit pistáciovou příchuť?)",
+        "Per Monica, una coppetta con fragola e cioccolato. (Pro Monicu kelímek s jahodou a čokoládou.)",
+        "Quanto costa un cono grande? (Kolik stojí velký kornout?)",
+        "⚜LEI⚜Cosa mi consiglia di provare? (Co mi doporučujete zkusit?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 25,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 26,
+      "title": "Volný čas",
+      "theme": "obecna",
+      "emoji": "🎨",
+      "dialogue": [
+        {
+          "it": "Cosa vi piace fare nel tempo libero?",
+          "cz": "Co rádi děláte ve volném čase?"
+        },
+        {
+          "it": "A Myrda piace cucinare e creare nuovi piatti.",
+          "cz": "Myrda rád vaří a vymýšlí nová jídla."
+        },
+        {
+          "it": "Monica ama leggere e fare passeggiate.",
+          "cz": "Monica miluje čtení a procházky."
+        },
+        {
+          "it": "Che bella combinazione!",
+          "cz": "To je krásná kombinace!"
+        }
+      ],
+      "vocab": [
+        {
+          "it": "il tempo libero",
+          "cz": "volný čas"
+        },
+        {
+          "it": "cucinare",
+          "cz": "vařit"
+        },
+        {
+          "it": "la passeggiata",
+          "cz": "procházka"
+        },
+        {
+          "it": "mi piace",
+          "cz": "líbí se mi / rád/a (něco dělám)"
+        }
+      ],
+      "grammar": {
+        "title": "PIACERE (líbit se)",
+        "text": "\"Mi piace\" = doslova \"mně se líbí\", ne \"já se líbím\". Mi piace cucinare (rád vařím), ti piace? (líbí se ti?), le piace (líbí se jí/Vám)."
+      },
+      "pronunciation": {
+        "title": "Přízvuk u sloves v přítomném čase",
+        "text": "U sloves na -are/-ere/-ire je přízvuk v přítomném čase obvykle na kmeni: cucìno (vařím), ne cucinò. Pomáhá to rozeznat časy."
+      },
+      "variations": [
+        "Mi piace molto la cucina italiana. (Moc se mi líbí italská kuchyně.)",
+        "A Monica piacciono i libri di viaggio. (Monica má rádi knihy o cestování.)",
+        "Ci piace passeggiare insieme la sera. (Rádi se večer spolu procházíme.)",
+        "⚜LEI⚜Le piace l'Italia? (Líbí se vám Itálie?)"
+      ],
+      "type": "new"
+    },
+    {
+      "day": 27,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 28,
+      "title": "Shrnutí",
+      "theme": "shrnuti",
+      "emoji": "📝",
+      "isSummary": true,
+      "type": "summary",
+      "summaryOf": [
+        22,
+        24,
+        26
+      ],
+      "reviewAll": true
     }
   ],
   "phrasebook": {
@@ -209,53 +833,140 @@
         "category": "Když nerozumím / potřebuju pomoc",
         "emoji": "🆘",
         "phrases": [
-          { "it": "Non capisco.", "cz": "Nerozumím." },
-          { "it": "Può parlare più lentamente, per favore?", "cz": "Můžete mluvit pomaleji, prosím? (zdvořile)" },
-          { "it": "Parli più lentamente, per favore?", "cz": "Mluv pomaleji, prosím? (tykání)" },
-          { "it": "Può ripetere, per favore?", "cz": "Můžete to zopakovat, prosím?" },
-          { "it": "Parlo poco italiano.", "cz": "Mluvím málo italsky." },
-          { "it": "Capisco solo se parla lentamente.", "cz": "Rozumím jen, když mluvíte pomalu." },
-          { "it": "Come si dice in italiano...?", "cz": "Jak se to řekne italsky...?" },
-          { "it": "Cosa significa questa parola?", "cz": "Co znamená to slovo?" },
-          { "it": "Può scriverlo, per favore?", "cz": "Můžete to napsat, prosím?" }
+          {
+            "it": "Non capisco.",
+            "cz": "Nerozumím."
+          },
+          {
+            "it": "Può parlare più lentamente, per favore?",
+            "cz": "Můžete mluvit pomaleji, prosím? (zdvořile)"
+          },
+          {
+            "it": "Parli più lentamente, per favore?",
+            "cz": "Mluv pomaleji, prosím? (tykání)"
+          },
+          {
+            "it": "Può ripetere, per favore?",
+            "cz": "Můžete to zopakovat, prosím?"
+          },
+          {
+            "it": "Parlo poco italiano.",
+            "cz": "Mluvím málo italsky."
+          },
+          {
+            "it": "Capisco solo se parla lentamente.",
+            "cz": "Rozumím jen, když mluvíte pomalu."
+          },
+          {
+            "it": "Come si dice in italiano...?",
+            "cz": "Jak se to řekne italsky...?"
+          },
+          {
+            "it": "Cosa significa questa parola?",
+            "cz": "Co znamená to slovo?"
+          },
+          {
+            "it": "Può scriverlo, per favore?",
+            "cz": "Můžete to napsat, prosím?"
+          }
         ]
       },
       {
         "category": "Zdvořilostní fráze",
         "emoji": "🙏",
         "phrases": [
-          { "it": "Grazie mille.", "cz": "Mnohokrát děkuji." },
-          { "it": "Prego.", "cz": "Není zač / Prosím (odpověď na děkuji)." },
-          { "it": "Mi scusi.", "cz": "Promiňte (zdvořile, k cizímu)." },
-          { "it": "Scusa.", "cz": "Promiň (tykání)." },
-          { "it": "Mi dispiace.", "cz": "Je mi líto / Omlouvám se." },
-          { "it": "Per favore.", "cz": "Prosím (žádost)." },
-          { "it": "Con piacere.", "cz": "S radostí / Rád(a)." },
-          { "it": "Non c'è problema.", "cz": "Není problém." }
+          {
+            "it": "Grazie mille.",
+            "cz": "Mnohokrát děkuji."
+          },
+          {
+            "it": "Prego.",
+            "cz": "Není zač / Prosím (odpověď na děkuji)."
+          },
+          {
+            "it": "Mi scusi.",
+            "cz": "Promiňte (zdvořile, k cizímu)."
+          },
+          {
+            "it": "Scusa.",
+            "cz": "Promiň (tykání)."
+          },
+          {
+            "it": "Mi dispiace.",
+            "cz": "Je mi líto / Omlouvám se."
+          },
+          {
+            "it": "Per favore.",
+            "cz": "Prosím (žádost)."
+          },
+          {
+            "it": "Con piacere.",
+            "cz": "S radostí / Rád(a)."
+          },
+          {
+            "it": "Non c'è problema.",
+            "cz": "Není problém."
+          }
         ]
       },
       {
         "category": "Běžné fráze na ulici",
         "emoji": "🚶",
         "phrases": [
-          { "it": "Scusi, dov'è il bagno?", "cz": "Promiňte, kde je záchod?" },
-          { "it": "Quanto è lontano?", "cz": "Jak daleko to je?" },
-          { "it": "Si può andare a piedi?", "cz": "Lze to dojít pěšky?" },
-          { "it": "Dove siamo?", "cz": "Kde jsme?" },
-          { "it": "Mi può aiutare, per favore?", "cz": "Můžete mi pomoct, prosím?" },
-          { "it": "A che ora apre/chiude?", "cz": "V kolik hodin otevírá/zavírá?" }
+          {
+            "it": "Scusi, dov'è il bagno?",
+            "cz": "Promiňte, kde je záchod?"
+          },
+          {
+            "it": "Quanto è lontano?",
+            "cz": "Jak daleko to je?"
+          },
+          {
+            "it": "Si può andare a piedi?",
+            "cz": "Lze to dojít pěšky?"
+          },
+          {
+            "it": "Dove siamo?",
+            "cz": "Kde jsme?"
+          },
+          {
+            "it": "Mi può aiutare, per favore?",
+            "cz": "Můžete mi pomoct, prosím?"
+          },
+          {
+            "it": "A che ora apre/chiude?",
+            "cz": "V kolik hodin otevírá/zavírá?"
+          }
         ]
       },
       {
         "category": "V obchodě / restauraci",
         "emoji": "🛍️",
         "phrases": [
-          { "it": "Sto solo guardando, grazie.", "cz": "Jen se dívám, děkuji." },
-          { "it": "Posso pagare con la carta?", "cz": "Můžu platit kartou?" },
-          { "it": "Il conto, per favore.", "cz": "Účet, prosím." },
-          { "it": "È incluso il servizio?", "cz": "Je v tom zahrnutý servis?" },
-          { "it": "Avete il wifi?", "cz": "Máte wifi?" },
-          { "it": "Vorrei un tavolo per due.", "cz": "Chtěl bych stůl pro dva." }
+          {
+            "it": "Sto solo guardando, grazie.",
+            "cz": "Jen se dívám, děkuji."
+          },
+          {
+            "it": "Posso pagare con la carta?",
+            "cz": "Můžu platit kartou?"
+          },
+          {
+            "it": "Il conto, per favore.",
+            "cz": "Účet, prosím."
+          },
+          {
+            "it": "È incluso il servizio?",
+            "cz": "Je v tom zahrnutý servis?"
+          },
+          {
+            "it": "Avete il wifi?",
+            "cz": "Máte wifi?"
+          },
+          {
+            "it": "Vorrei un tavolo per due.",
+            "cz": "Chtěl bych stůl pro dva."
+          }
         ]
       }
     ]
@@ -302,6 +1013,116 @@
           "Italové běžně chodí na pozdější večeři (20-21h je normální čas), restaurace před 19:30 mohou být ještě prázdné nebo zavřené.",
           "Mnoho obchodů má siestu (zavřeno) odpoledne, typicky 13:00-15:30/16:00, hlavně v menších městech."
         ]
+      }
+    ]
+  },
+  "verbs": {
+    "title": "Slovesa v přítomném čase",
+    "subtitle": "6 nejdůležitějších sloves, která potkáš v každé druhé větě",
+    "persons": [
+      "io",
+      "tu",
+      "lui / lei",
+      "noi",
+      "voi",
+      "loro"
+    ],
+    "list": [
+      {
+        "infinitive": "essere",
+        "meaning": "být",
+        "forms": [
+          "sono",
+          "sei",
+          "è",
+          "siamo",
+          "siete",
+          "sono"
+        ],
+        "example": {
+          "it": "Siamo di Náchod.",
+          "cz": "Jsme z Náchodu."
+        }
+      },
+      {
+        "infinitive": "avere",
+        "meaning": "mít",
+        "forms": [
+          "ho",
+          "hai",
+          "ha",
+          "abbiamo",
+          "avete",
+          "hanno"
+        ],
+        "example": {
+          "it": "Abbiamo una prenotazione.",
+          "cz": "Máme rezervaci."
+        }
+      },
+      {
+        "infinitive": "andare",
+        "meaning": "jít / jet",
+        "forms": [
+          "vado",
+          "vai",
+          "va",
+          "andiamo",
+          "andate",
+          "vanno"
+        ],
+        "example": {
+          "it": "Andiamo a Bergamo.",
+          "cz": "Jedeme do Bergama."
+        }
+      },
+      {
+        "infinitive": "potere",
+        "meaning": "moct",
+        "forms": [
+          "posso",
+          "puoi",
+          "può",
+          "possiamo",
+          "potete",
+          "possono"
+        ],
+        "example": {
+          "it": "Posso assaggiare?",
+          "cz": "Můžu zkusit?"
+        }
+      },
+      {
+        "infinitive": "volere",
+        "meaning": "chtít",
+        "forms": [
+          "voglio",
+          "vuoi",
+          "vuole",
+          "vogliamo",
+          "volete",
+          "vogliono"
+        ],
+        "example": {
+          "it": "Vorrei un caffè.",
+          "cz": "Chtěl bych kávu. (zdvořilá forma)"
+        }
+      },
+      {
+        "infinitive": "fare",
+        "meaning": "dělat",
+        "forms": [
+          "faccio",
+          "fai",
+          "fa",
+          "facciamo",
+          "fate",
+          "fanno"
+        ],
+        "example": {
+          "it": "Cosa fai stasera?",
+          "cz": "Co děláš dnes večer?"
+        }
       }
     ]
   }
