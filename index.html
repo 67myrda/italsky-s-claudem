@@ -187,6 +187,23 @@
     border-radius:50%;
     background:var(--olive);
   }
+  .week-label{
+    flex:0 0 auto;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    font-size:10.5px;
+    font-weight:700;
+    color:#b0a797;
+    letter-spacing:0.04em;
+    padding:0 4px;
+    align-self:center;
+  }
+  .week-label:not(:first-child){
+    border-left:1.5px dashed var(--line);
+    padding-left:10px;
+    margin-left:2px;
+  }
 
   /* CARD */
   .card{
@@ -374,6 +391,97 @@
   .done-btn.is-done{background:var(--cream);color:var(--olive-dark);border:1.5px solid var(--olive);}
   .done-btn:active{transform:scale(0.98);}
 
+  /* REVIEW MODE */
+  .review-intro-text{
+    font-size:14px;
+    line-height:1.55;
+    color:#6B6258;
+    margin-bottom:18px;
+  }
+  .review-stats{
+    text-align:center;
+    font-size:13px;
+    color:var(--olive-dark);
+    font-weight:600;
+    margin-bottom:14px;
+  }
+  .big-review-btn{
+    width:100%;
+    padding:15px;
+    border:none;
+    border-radius:14px;
+    background:var(--brick);
+    color:#fff;
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:15.5px;
+    cursor:pointer;
+    transition:all 0.2s ease;
+    margin-top:8px;
+  }
+  .big-review-btn:active{transform:scale(0.98);}
+  .review-source-label{
+    font-size:11px;
+    color:#9a9082;
+    text-transform:uppercase;
+    letter-spacing:0.08em;
+    font-weight:600;
+    margin-bottom:14px;
+  }
+  .review-prompt{
+    font-size:22px;
+    font-family:'Fraunces',serif;
+    font-weight:500;
+    line-height:1.4;
+    margin-bottom:22px;
+    color:var(--ink);
+  }
+  .reveal-btn{
+    width:100%;
+    padding:14px;
+    border:1.5px dashed var(--olive);
+    border-radius:14px;
+    background:transparent;
+    color:var(--olive-dark);
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:15px;
+    cursor:pointer;
+  }
+  .review-answer{
+    display:flex;
+    align-items:center;
+    gap:12px;
+    background:var(--cream);
+    border-radius:14px;
+    padding:16px;
+    margin-bottom:4px;
+  }
+  .review-answer .it{font-size:20px;}
+  .review-buttons{
+    display:flex;
+    gap:10px;
+    margin-top:16px;
+  }
+  .review-btn{
+    flex:1;
+    padding:14px 8px;
+    border:none;
+    border-radius:14px;
+    font-family:'Inter',sans-serif;
+    font-weight:600;
+    font-size:13.5px;
+    cursor:pointer;
+    transition:all 0.15s ease;
+  }
+  .review-btn.no{background:rgba(196,69,54,0.12);color:var(--brick-dark);}
+  .review-btn.no:active{background:rgba(196,69,54,0.22);}
+  .review-btn.yes{background:rgba(122,139,105,0.18);color:var(--olive-dark);}
+  .review-btn.yes:active{background:rgba(122,139,105,0.3);}
+  .review-complete{text-align:center;padding:36px 22px;}
+  .review-result{font-size:15px;margin:10px 0 20px;color:#6B6258;}
+  .review-result b{color:var(--brick);font-size:18px;}
+
   /* PROGRESS FOOTER */
   .progress-footer{
     text-align:center;
@@ -450,8 +558,8 @@
     overflow-x:auto;
   }
   .panel-tab{
-    flex:1;
-    padding:12px 6px;
+    flex:0 0 auto;
+    padding:12px 13px;
     text-align:center;
     font-size:11.5px;
     font-weight:600;
@@ -534,6 +642,67 @@
     padding:30px 10px;
   }
 
+  /* VERB CARDS */
+  .verb-card{
+    background:var(--paper);
+    border-radius:14px;
+    padding:14px 15px;
+    margin-bottom:14px;
+    border:1px solid var(--line);
+  }
+  .verb-head{
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    margin-bottom:10px;
+  }
+  .verb-title .it{
+    font-family:'Fraunces',serif;
+    font-weight:600;
+    font-size:17px;
+    margin-right:8px;
+  }
+  .verb-title .cz{
+    font-size:12.5px;
+    color:#6B6258;
+  }
+  .verb-table{
+    display:grid;
+    grid-template-columns:1fr 1fr;
+    gap:5px 14px;
+    margin-bottom:10px;
+  }
+  .verb-row{
+    display:flex;
+    justify-content:space-between;
+    font-size:13px;
+    padding:4px 0;
+    border-bottom:1px solid var(--line);
+  }
+  .verb-row .person{color:#9a9082;}
+  .verb-row .form{font-weight:600;font-family:'Fraunces',serif;}
+  .verb-example{
+    background:var(--cream);
+    border-radius:10px;
+    padding:9px 11px;
+    display:flex;
+    align-items:center;
+    justify-content:space-between;
+    gap:8px;
+  }
+  .verb-example .it{
+    font-family:'Fraunces',serif;
+    font-size:13.5px;
+    font-weight:500;
+    display:block;
+  }
+  .verb-example .cz{
+    font-size:11.5px;
+    color:#6B6258;
+    display:block;
+    margin-top:1px;
+  }
+
   @media (max-width:380px){
     h1{font-size:26px;}
     .it{font-size:16.5px;}
@@ -578,6 +747,7 @@
   <div class="panel-tabs" id="panelTabs">
     <div class="panel-tab active" data-tab="vocab">🧺 Slovník</div>
     <div class="panel-tab" data-tab="grammar">📐 Gramatika</div>
+    <div class="panel-tab" data-tab="verbs">🔁 Slovesa</div>
     <div class="panel-tab" data-tab="pronunciation">🔊 Výslovnost</div>
     <div class="panel-tab" data-tab="phrasebook">🆘 Fráze</div>
     <div class="panel-tab" data-tab="customs">🇮🇹 Zvyklosti</div>
@@ -589,6 +759,7 @@
 let LESSONS = [];
 let PHRASEBOOK = null;
 let CUSTOMS = null;
+let VERBS = null;
 let currentDay = 1;
 let activeTab = 'vocab';
 let progress = JSON.parse(localStorage.getItem('it_progress') || '{}');
@@ -601,6 +772,7 @@ async function loadLessons(){
   LESSONS = data.lessons;
   PHRASEBOOK = data.phrasebook || null;
   CUSTOMS = data.customs || null;
+  VERBS = data.verbs || null;
   const lastOpened = localStorage.getItem('it_last_day');
   currentDay = lastOpened ? parseInt(lastOpened) : 1;
   renderNav();
@@ -610,7 +782,17 @@ async function loadLessons(){
 function renderNav(){
   const nav = document.getElementById('menuNav');
   nav.innerHTML = '';
+  let lastWeek = 0;
+  const showWeeks = LESSONS.length > 7;
   LESSONS.forEach(l => {
+    const week = Math.ceil(l.day / 7);
+    if (showWeeks && week !== lastWeek){
+      const label = document.createElement('div');
+      label.className = 'week-label';
+      label.textContent = `T${week}`;
+      nav.appendChild(label);
+      lastWeek = week;
+    }
     const pill = document.createElement('div');
     pill.className = 'day-pill' + (l.day === currentDay ? ' active' : '') + (progress[l.day] ? ' done' : '');
     pill.innerHTML = `<div class="emoji">${l.emoji}</div><div class="num">${l.day}</div>`;
@@ -642,6 +824,11 @@ function renderLesson(day){
 
   if (lesson.isSummary){
     renderSummary(lesson, container);
+    return;
+  }
+
+  if (lesson.type === 'review'){
+    renderReviewIntro(lesson, container);
     return;
   }
 
@@ -717,9 +904,9 @@ function renderLesson(day){
 function renderSummary(lesson, container){
   const days = lesson.summaryOf.map(d => LESSONS.find(l => l.day === d)).filter(Boolean);
   let html = `<div class="card">
-    <div class="card-label">📝 Týdenní shrnutí</div>
+    <div class="card-label">📝 Shrnutí cyklu</div>
     <div class="lesson-title">${lesson.emoji} ${lesson.title}</div>
-    <div class="sub-label" style="margin-top:0;">Gramatika celého týdne</div>`;
+    <div class="sub-label" style="margin-top:0;">Gramatika tohoto cyklu</div>`;
 
   days.forEach(d => {
     html += `<div class="summary-block">
@@ -739,7 +926,9 @@ function renderSummary(lesson, container){
     </div>`;
   });
 
-  html += `<div class="shadow-tip-mini">🎯 Zkus přečíst všechny dialogy znovu — bez nahlížení na překlad</div>`;
+  if (lesson.reviewAll){
+    html += `<button class="big-review-btn" id="bigReviewBtn">🔁 Spustit velké opakování</button>`;
+  }
   html += `</div>`;
 
   html += `<button class="done-btn ${progress[lesson.day] ? 'is-done' : ''}" id="doneBtn">${progress[lesson.day] ? '✓ Hotovo' : 'Označit shrnutí jako hotové'}</button>`;
@@ -751,13 +940,162 @@ function renderSummary(lesson, container){
     renderNav();
     renderLesson(lesson.day);
   };
+  if (lesson.reviewAll){
+    document.getElementById('bigReviewBtn').onclick = () => startBigReview(lesson.day);
+  }
   updateProgressFooter();
 }
 
 function updateProgressFooter(){
   const total = LESSONS.length;
   const done = Object.values(progress).filter(Boolean).length;
-  document.getElementById('progressFooter').innerHTML = `<b>${done}/${total}</b> lekcí hotovo tento týden`;
+  document.getElementById('progressFooter').innerHTML = `<b>${done}/${total}</b> lekcí hotovo celkem`;
+}
+
+/* ===== SPACED REPETITION REVIEW ENGINE ===== */
+const SRS_LADDER = [1, 3, 7, 14, 30]; // dny do dalšího opakování po úspěšném vybavení
+let reviewSession = null;
+
+function buildPool(uptoDay){
+  let pool = [];
+  LESSONS.forEach(l => {
+    if (l.type === 'new' && l.day <= uptoDay){
+      l.vocab.forEach((v, i) => {
+        pool.push({ key:`vocab:${l.day}:${i}`, it:v.it, cz:v.cz, source:`${l.emoji} Den ${l.day} — ${l.title}` });
+      });
+    }
+  });
+  if (PHRASEBOOK){
+    PHRASEBOOK.categories.forEach((cat, ci) => {
+      cat.phrases.forEach((p, pi) => {
+        pool.push({ key:`phrase:${ci}:${pi}`, it:p.it, cz:p.cz, source:`${cat.emoji} ${cat.category}` });
+      });
+    });
+  }
+  return pool;
+}
+
+function getSrsState(){
+  return JSON.parse(localStorage.getItem('it_srs') || '{}');
+}
+
+function getDueItems(pool, limit){
+  const srs = getSrsState();
+  const now = Date.now();
+  const scored = pool.map(item => {
+    const state = srs[item.key];
+    if (!state) return { ...item, box:0, overdue: now };
+    const due = new Date(state.due).getTime();
+    return { ...item, box: state.box, overdue: now - due };
+  });
+  let due = scored.filter(s => s.overdue >= 0).sort((a,b) => b.overdue - a.overdue);
+  if (due.length < limit){
+    const dueKeys = new Set(due.map(d => d.key));
+    const rest = scored.filter(s => !dueKeys.has(s.key)).sort((a,b) => a.box - b.box);
+    due = due.concat(rest.slice(0, limit - due.length));
+  }
+  return shuffleArray(due.slice(0, limit));
+}
+
+function shuffleArray(arr){
+  const a = [...arr];
+  for (let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+function updateSRS(key, remembered){
+  const srs = getSrsState();
+  let state = srs[key] || { box: 0 };
+  state.box = remembered ? Math.min(state.box + 1, SRS_LADDER.length - 1) : 0;
+  const days = SRS_LADDER[state.box];
+  state.due = new Date(Date.now() + days * 24 * 60 * 60 * 1000).toISOString();
+  srs[key] = state;
+  localStorage.setItem('it_srs', JSON.stringify(srs));
+}
+
+function renderReviewIntro(lesson, container){
+  const pool = buildPool(lesson.day - 1);
+  const due = getDueItems(pool, 14);
+  let html = `<div class="card review-intro">
+    <div class="card-label">🔁 Opakování · Den ${lesson.day}</div>
+    <div class="lesson-title">🔁 Co si ještě pamatuješ?</div>
+    <div class="review-intro-text">Žádný nový obsah dnes — jen aktivní vybavování toho, co už jsi probral/a. Appka ti ukáže český překlad, zkus si vzpomenout na italskou větu, než ji odkryješ.</div>`;
+  if (due.length === 0){
+    html += `<div class="panel-empty">Zatím nemáš nic k opakování — projdi si nejdřív nějakou novou lekci.</div></div>`;
+    container.innerHTML = html;
+    return;
+  }
+  html += `<div class="review-stats">${due.length} položek připraveno</div>
+    <button class="big-review-btn" id="startReviewBtn">▶ Spustit opakování</button>
+  </div>`;
+  container.innerHTML = html;
+  document.getElementById('startReviewBtn').onclick = () => startReviewSession(due);
+}
+
+function startBigReview(uptoDay){
+  const pool = buildPool(uptoDay - 1);
+  const due = getDueItems(pool, 20);
+  if (due.length === 0){ alert('Není zatím nic k opakování.'); return; }
+  startReviewSession(due);
+}
+
+function startReviewSession(items){
+  reviewSession = { items, index:0, correct:0, total: items.length };
+  renderReviewCard();
+}
+
+function renderReviewCard(){
+  const container = document.getElementById('lessonContainer');
+  if (!reviewSession || reviewSession.index >= reviewSession.items.length){
+    return renderReviewComplete(container);
+  }
+  const item = reviewSession.items[reviewSession.index];
+  let html = `<div class="card review-card">
+    <div class="card-label">🔁 Opakování · ${reviewSession.index + 1}/${reviewSession.total}</div>
+    <div class="review-source-label">${item.source}</div>
+    <div class="review-prompt">${item.cz}</div>
+    <button class="reveal-btn" id="revealBtn">Ukázat</button>
+    <div class="review-answer" id="reviewAnswer" style="display:none;">
+      <button class="line-play" data-text="${escapeAttr(item.it)}" onclick="speak(this.dataset.text, this)">▶</button>
+      <div class="it">${item.it}</div>
+    </div>
+    <div class="review-buttons" id="reviewButtons" style="display:none;">
+      <button class="review-btn no" onclick="answerReview(false)">❌ Nevzpomněl/a jsem si</button>
+      <button class="review-btn yes" onclick="answerReview(true)">✅ Vzpomněl/a jsem si</button>
+    </div>
+  </div>`;
+  container.innerHTML = html;
+  document.getElementById('revealBtn').onclick = () => {
+    document.getElementById('reviewAnswer').style.display = 'flex';
+    document.getElementById('reviewButtons').style.display = 'flex';
+    document.getElementById('revealBtn').style.display = 'none';
+  };
+}
+
+function answerReview(remembered){
+  const item = reviewSession.items[reviewSession.index];
+  updateSRS(item.key, remembered);
+  if (remembered) reviewSession.correct++;
+  reviewSession.index++;
+  renderReviewCard();
+}
+
+function renderReviewComplete(container){
+  const { correct, total } = reviewSession;
+  container.innerHTML = `<div class="card review-complete">
+    <div class="lesson-title">🎉 Hotovo!</div>
+    <div class="review-result">Vzpomněl/a jsi si na <b>${correct}/${total}</b> položek.</div>
+    <button class="done-btn" id="reviewDoneBtn">Označit den jako hotový</button>
+  </div>`;
+  document.getElementById('reviewDoneBtn').onclick = () => {
+    progress[currentDay] = true;
+    localStorage.setItem('it_progress', JSON.stringify(progress));
+    renderNav();
+    updateProgressFooter();
+  };
 }
 
 function escapeAttr(s){
@@ -795,6 +1133,7 @@ function renderPanel(){
   const body = document.getElementById('panelBody');
   if (activeTab === 'vocab') return renderPanelVocab(body);
   if (activeTab === 'grammar') return renderPanelGrammar(body);
+  if (activeTab === 'verbs') return renderPanelVerbs(body);
   if (activeTab === 'pronunciation') return renderPanelPronunciation(body);
   if (activeTab === 'phrasebook') return renderPanelPhrasebook(body);
   if (activeTab === 'customs') return renderPanelCustoms(body);
@@ -865,6 +1204,28 @@ function renderPanelCustoms(body){
     cat.notes.forEach(n => {
       html += `<div class="panel-note">${n}</div>`;
     });
+  });
+  body.innerHTML = html;
+}
+
+function renderPanelVerbs(body){
+  if (!VERBS){ body.innerHTML = `<div class="panel-empty">Zatím nic k zobrazení.</div>`; return; }
+  let html = `<div style="font-size:12.5px;color:#6B6258;margin-bottom:14px;">${VERBS.subtitle || ''}</div>`;
+  VERBS.list.forEach(v => {
+    const formsLine = v.forms.join(', ');
+    html += `<div class="verb-card">
+      <div class="verb-head">
+        <div class="verb-title"><span class="it">${v.infinitive}</span><span class="cz">${v.meaning}</span></div>
+        <button class="panel-phrase-play" title="Poslechni celé časování" data-text="${escapeAttr(formsLine)}" onclick="speak(this.dataset.text, this)">▶</button>
+      </div>
+      <div class="verb-table">
+        ${VERBS.persons.map((p,i) => `<div class="verb-row"><span class="person">${p}</span><span class="form">${v.forms[i]}</span></div>`).join('')}
+      </div>
+      <div class="verb-example">
+        <div><span class="it">${v.example.it}</span><span class="cz">${v.example.cz}</span></div>
+        <button class="panel-phrase-play" data-text="${escapeAttr(v.example.it)}" onclick="speak(this.dataset.text, this)">▶</button>
+      </div>
+    </div>`;
   });
   body.innerHTML = html;
 }
