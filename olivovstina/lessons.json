@@ -7,16 +7,40 @@
       "emoji": "👋",
       "type": "new",
       "dialogue": [
-        { "it": "Buenos días, me llamo Myrda y soy de la República Checa.", "cz": "Dobrý den, jmenuji se Myrda a jsem z České republiky." },
-        { "it": "Estoy interesado en colaborar con su empresa.", "cz": "Mám zájem o spolupráci s vaší firmou." },
-        { "it": "¿Podría hablar con el departamento de exportación?", "cz": "Mohl bych mluvit s exportním oddělením?" },
-        { "it": "Por supuesto. Un momento, por favor.", "cz": "Samozřejmě. Chvíli strpení, prosím." }
+        {
+          "it": "Buenos días, me llamo Myrda y soy de la República Checa.",
+          "cz": "Dobrý den, jmenuji se Myrda a jsem z České republiky."
+        },
+        {
+          "it": "Estoy interesado en colaborar con su empresa.",
+          "cz": "Mám zájem o spolupráci s vaší firmou."
+        },
+        {
+          "it": "¿Podría hablar con el departamento de exportación?",
+          "cz": "Mohl bych mluvit s exportním oddělením?"
+        },
+        {
+          "it": "Por supuesto. Un momento, por favor.",
+          "cz": "Samozřejmě. Chvíli strpení, prosím."
+        }
       ],
       "vocab": [
-        { "it": "buenos días", "cz": "dobrý den (ráno)" },
-        { "it": "me llamo", "cz": "jmenuji se" },
-        { "it": "interesado/a", "cz": "zainteresovaný/á, mám zájem" },
-        { "it": "exportación (f.)", "cz": "export" }
+        {
+          "it": "buenos días",
+          "cz": "dobrý den (ráno)"
+        },
+        {
+          "it": "me llamo",
+          "cz": "jmenuji se"
+        },
+        {
+          "it": "interesado/a",
+          "cz": "zainteresovaný/á, mám zájem"
+        },
+        {
+          "it": "exportación (f.)",
+          "cz": "export"
+        }
       ],
       "grammar": {
         "title": "SER — být (trvalé vlastnosti)",
@@ -34,7 +58,11 @@
       ]
     },
     {
-      "day": 2, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 2,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 3,
@@ -43,16 +71,40 @@
       "emoji": "🗣️",
       "type": "new",
       "dialogue": [
-        { "it": "Perdone, no hablo bien español. Prefiero el correo electrónico.", "cz": "Promiňte, nemluvím dobře španělsky. Preferuji e-mail." },
-        { "it": "No hay problema. Le envío la información por escrito.", "cz": "Není problém. Pošlu vám informace písemně." },
-        { "it": "¿Puede hablar más despacio, por favor?", "cz": "Můžete mluvit pomaleji, prosím?" },
-        { "it": "¿Puede repetir eso, por favor?", "cz": "Můžete to zopakovat, prosím?" }
+        {
+          "it": "Perdone, no hablo bien español. Prefiero el correo electrónico.",
+          "cz": "Promiňte, nemluvím dobře španělsky. Preferuji e-mail."
+        },
+        {
+          "it": "No hay problema. Le envío la información por escrito.",
+          "cz": "Není problém. Pošlu vám informace písemně."
+        },
+        {
+          "it": "¿Puede hablar más despacio, por favor?",
+          "cz": "Můžete mluvit pomaleji, prosím?"
+        },
+        {
+          "it": "¿Puede repetir eso, por favor?",
+          "cz": "Můžete to zopakovat, prosím?"
+        }
       ],
       "vocab": [
-        { "it": "perdone / disculpe", "cz": "promiňte (zdvořile)" },
-        { "it": "despacio", "cz": "pomalu" },
-        { "it": "repetir", "cz": "zopakovat" },
-        { "it": "por escrito", "cz": "písemně" }
+        {
+          "it": "perdone / disculpe",
+          "cz": "promiňte (zdvořile)"
+        },
+        {
+          "it": "despacio",
+          "cz": "pomalu"
+        },
+        {
+          "it": "repetir",
+          "cz": "zopakovat"
+        },
+        {
+          "it": "por escrito",
+          "cz": "písemně"
+        }
       ],
       "grammar": {
         "title": "USTED — vykání v obchodu",
@@ -70,7 +122,11 @@
       ]
     },
     {
-      "day": 4, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 4,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 5,
@@ -79,16 +135,40 @@
       "emoji": "🔢",
       "type": "new",
       "dialogue": [
-        { "it": "El aceite tiene una acidez de cero coma dos por ciento.", "cz": "Olej má kyselost nula celá dvě procenta (0,2 %)." },
-        { "it": "Necesito mil litros en la primera entrega.", "cz": "Potřebuji tisíc litrů v první dodávce." },
-        { "it": "¿Cuál es el precio por litro?", "cz": "Jaká je cena za litr?" },
-        { "it": "El precio es cuatro euros por litro.", "cz": "Cena je čtyři eura za litr." }
+        {
+          "it": "El aceite tiene una acidez de cero coma dos por ciento.",
+          "cz": "Olej má kyselost nula celá dvě procenta (0,2 %)."
+        },
+        {
+          "it": "Necesito mil litros en la primera entrega.",
+          "cz": "Potřebuji tisíc litrů v první dodávce."
+        },
+        {
+          "it": "¿Cuál es el precio por litro?",
+          "cz": "Jaká je cena za litr?"
+        },
+        {
+          "it": "El precio es cuatro euros por litro.",
+          "cz": "Cena je čtyři eura za litr."
+        }
       ],
       "vocab": [
-        { "it": "el litro / los litros", "cz": "litr / litry" },
-        { "it": "el precio", "cz": "cena" },
-        { "it": "la acidez", "cz": "kyselost" },
-        { "it": "la entrega", "cz": "dodávka" }
+        {
+          "it": "el litro / los litros",
+          "cz": "litr / litry"
+        },
+        {
+          "it": "el precio",
+          "cz": "cena"
+        },
+        {
+          "it": "la acidez",
+          "cz": "kyselost"
+        },
+        {
+          "it": "la entrega",
+          "cz": "dodávka"
+        }
       ],
       "grammar": {
         "title": "Desetinná čárka — ne tečka!",
@@ -106,7 +186,11 @@
       ]
     },
     {
-      "day": 6, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 6,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 7,
@@ -115,7 +199,11 @@
       "emoji": "📝",
       "type": "summary",
       "isSummary": true,
-      "summaryOf": [1, 3, 5],
+      "summaryOf": [
+        1,
+        3,
+        5
+      ],
       "reviewAll": true
     },
     {
@@ -125,16 +213,40 @@
       "emoji": "🫒",
       "type": "new",
       "dialogue": [
-        { "it": "¿Qué variedades utilizan para el aceite DOP Priego?", "cz": "Jaké odrůdy používáte pro olej DOP Priego?" },
-        { "it": "Usamos Picuda, Picual y Hojiblanca en coupage.", "cz": "Používáme Picudu, Picual a Hojiblanca jako směs." },
-        { "it": "La Picuda es la variedad más característica de Priego de Córdoba.", "cz": "Picuda je nejtypičtější odrůda pro Priego de Córdoba." },
-        { "it": "¿Qué perfil sensorial tiene el coupage?", "cz": "Jaký senzorický profil má tato směs?" }
+        {
+          "it": "¿Qué variedades utilizan para el aceite DOP Priego?",
+          "cz": "Jaké odrůdy používáte pro olej DOP Priego?"
+        },
+        {
+          "it": "Usamos Picuda, Picual y Hojiblanca en coupage.",
+          "cz": "Používáme Picudu, Picual a Hojiblanca jako směs."
+        },
+        {
+          "it": "La Picuda es la variedad más característica de Priego de Córdoba.",
+          "cz": "Picuda je nejtypičtější odrůda pro Priego de Córdoba."
+        },
+        {
+          "it": "¿Qué perfil sensorial tiene el coupage?",
+          "cz": "Jaký senzorický profil má tato směs?"
+        }
       ],
       "vocab": [
-        { "it": "la variedad", "cz": "odrůda" },
-        { "it": "el coupage", "cz": "směs odrůd (fr. výpůjčka)" },
-        { "it": "Picuda / Picual / Hojiblanca", "cz": "hlavní odrůdy DOP Priego" },
-        { "it": "característico/a", "cz": "typický/á, charakteristický/á" }
+        {
+          "it": "la variedad",
+          "cz": "odrůda"
+        },
+        {
+          "it": "el coupage",
+          "cz": "směs odrůd (fr. výpůjčka)"
+        },
+        {
+          "it": "Picuda / Picual / Hojiblanca",
+          "cz": "hlavní odrůdy DOP Priego"
+        },
+        {
+          "it": "característico/a",
+          "cz": "typický/á, charakteristický/á"
+        }
       ],
       "grammar": {
         "title": "Rod podstatných jmen",
@@ -152,7 +264,11 @@
       ]
     },
     {
-      "day": 9, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 9,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 10,
@@ -161,16 +277,40 @@
       "emoji": "🏆",
       "type": "new",
       "dialogue": [
-        { "it": "¿Cuál es la acidez de su aceite virgen extra?", "cz": "Jaká je kyselost vašeho extra panenského oleje?" },
-        { "it": "La acidez es inferior a cero coma dos por ciento.", "cz": "Kyselost je nižší než 0,2 %." },
-        { "it": "¿Es un aceite frutado, amargo y picante?", "cz": "Je to ovocný, hořký a štiplavý olej?" },
-        { "it": "Sí, tiene las tres características de un buen AOVE.", "cz": "Ano, má všechny tři vlastnosti dobrého EVOO." }
+        {
+          "it": "¿Cuál es la acidez de su aceite virgen extra?",
+          "cz": "Jaká je kyselost vašeho extra panenského oleje?"
+        },
+        {
+          "it": "La acidez es inferior a cero coma dos por ciento.",
+          "cz": "Kyselost je nižší než 0,2 %."
+        },
+        {
+          "it": "¿Es un aceite frutado, amargo y picante?",
+          "cz": "Je to ovocný, hořký a štiplavý olej?"
+        },
+        {
+          "it": "Sí, tiene las tres características de un buen AOVE.",
+          "cz": "Ano, má všechny tři vlastnosti dobrého EVOO."
+        }
       ],
       "vocab": [
-        { "it": "virgen extra (AOVE)", "cz": "extra panenský (EVOO)" },
-        { "it": "frutado / amargo / picante", "cz": "ovocný / hořký / štiplavý" },
-        { "it": "los polifenoles", "cz": "polyfenoly" },
-        { "it": "la cosecha temprana", "cz": "brzká sklizeň" }
+        {
+          "it": "virgen extra (AOVE)",
+          "cz": "extra panenský (EVOO)"
+        },
+        {
+          "it": "frutado / amargo / picante",
+          "cz": "ovocný / hořký / štiplavý"
+        },
+        {
+          "it": "los polifenoles",
+          "cz": "polyfenoly"
+        },
+        {
+          "it": "la cosecha temprana",
+          "cz": "brzká sklizeň"
+        }
       ],
       "grammar": {
         "title": "QUISIERA — zdvořilé 'chtěl bych'",
@@ -188,7 +328,11 @@
       ]
     },
     {
-      "day": 11, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 11,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 12,
@@ -197,16 +341,40 @@
       "emoji": "🏷️",
       "type": "new",
       "dialogue": [
-        { "it": "¿Son envasadora certificada por la DOP Priego de Córdoba?", "cz": "Jste certifikovaná plnírna DOP Priego de Córdoba?" },
-        { "it": "Sí, estamos inscritos en el Consejo Regulador desde el año dos mil.", "cz": "Ano, jsme registrováni v Regulační radě od roku 2000." },
-        { "it": "El aceite lleva el sello DOP Priego de Córdoba.", "cz": "Olej nese označení DOP Priego de Córdoba." },
-        { "it": "¿Pueden producir aceite bajo marca propia con DOP?", "cz": "Mohou vyrábět olej pod vlastní značkou s DOP?" }
+        {
+          "it": "¿Son envasadora certificada por la DOP Priego de Córdoba?",
+          "cz": "Jste certifikovaná plnírna DOP Priego de Córdoba?"
+        },
+        {
+          "it": "Sí, estamos inscritos en el Consejo Regulador desde el año dos mil.",
+          "cz": "Ano, jsme registrováni v Regulační radě od roku 2000."
+        },
+        {
+          "it": "El aceite lleva el sello DOP Priego de Córdoba.",
+          "cz": "Olej nese označení DOP Priego de Córdoba."
+        },
+        {
+          "it": "¿Pueden producir aceite bajo marca propia con DOP?",
+          "cz": "Mohou vyrábět olej pod vlastní značkou s DOP?"
+        }
       ],
       "vocab": [
-        { "it": "la envasadora", "cz": "plnírna (certifikovaná pro DOP)" },
-        { "it": "DOP (Denominación de Origen Protegida)", "cz": "Chráněné označení původu" },
-        { "it": "el consejo regulador", "cz": "regulační rada (CRDOP)" },
-        { "it": "el sello", "cz": "pečeť, označení" }
+        {
+          "it": "la envasadora",
+          "cz": "plnírna (certifikovaná pro DOP)"
+        },
+        {
+          "it": "DOP (Denominación de Origen Protegida)",
+          "cz": "Chráněné označení původu"
+        },
+        {
+          "it": "el consejo regulador",
+          "cz": "regulační rada (CRDOP)"
+        },
+        {
+          "it": "el sello",
+          "cz": "pečeť, označení"
+        }
       ],
       "grammar": {
         "title": "LLEVAR = nést/mít na sobě",
@@ -224,7 +392,11 @@
       ]
     },
     {
-      "day": 13, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 13,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 14,
@@ -233,7 +405,11 @@
       "emoji": "📝",
       "type": "summary",
       "isSummary": true,
-      "summaryOf": [8, 10, 12],
+      "summaryOf": [
+        8,
+        10,
+        12
+      ],
       "reviewAll": true
     },
     {
@@ -243,16 +419,40 @@
       "emoji": "💶",
       "type": "new",
       "dialogue": [
-        { "it": "¿Cuál es el precio por litro para una lata de tres litros?", "cz": "Jaká je cena za litr pro 3litrovou plechovku?" },
-        { "it": "El precio depende del volumen total del pedido.", "cz": "Cena závisí na celkovém objemu objednávky." },
-        { "it": "¿Cuál es el pedido mínimo para marca propia?", "cz": "Jaké je minimální množství pro vlastní značku?" },
-        { "it": "El mínimo son doscientas latas por referencia.", "cz": "Minimum je 200 plechovek na jeden typ." }
+        {
+          "it": "¿Cuál es el precio por litro para una lata de tres litros?",
+          "cz": "Jaká je cena za litr pro 3litrovou plechovku?"
+        },
+        {
+          "it": "El precio depende del volumen total del pedido.",
+          "cz": "Cena závisí na celkovém objemu objednávky."
+        },
+        {
+          "it": "¿Cuál es el pedido mínimo para marca propia?",
+          "cz": "Jaké je minimální množství pro vlastní značku?"
+        },
+        {
+          "it": "El mínimo son doscientas latas por referencia.",
+          "cz": "Minimum je 200 plechovek na jeden typ."
+        }
       ],
       "vocab": [
-        { "it": "el pedido mínimo", "cz": "minimální objednávka (MOQ)" },
-        { "it": "la lata de 1L / 3L", "cz": "1L / 3L plechovka" },
-        { "it": "el volumen", "cz": "objem" },
-        { "it": "la referencia", "cz": "typ/varianta produktu (SKU)" }
+        {
+          "it": "el pedido mínimo",
+          "cz": "minimální objednávka (MOQ)"
+        },
+        {
+          "it": "la lata de 1L / 3L",
+          "cz": "1L / 3L plechovka"
+        },
+        {
+          "it": "el volumen",
+          "cz": "objem"
+        },
+        {
+          "it": "la referencia",
+          "cz": "typ/varianta produktu (SKU)"
+        }
       ],
       "grammar": {
         "title": "DEPENDER DE — záviset na",
@@ -270,7 +470,11 @@
       ]
     },
     {
-      "day": 16, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 16,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 17,
@@ -279,16 +483,40 @@
       "emoji": "🏷️",
       "type": "new",
       "dialogue": [
-        { "it": "Nos gustaría comercializar su aceite bajo nuestra propia marca.", "cz": "Rádi bychom prodávali váš olej pod naší vlastní značkou." },
-        { "it": "¿Tienen experiencia con marca propia para clientes extranjeros?", "cz": "Máte zkušenosti s vlastní značkou pro zahraniční klienty?" },
-        { "it": "Necesitamos lata de un litro y de tres litros con nuestra etiqueta.", "cz": "Potřebujeme 1L a 3L plechovku s naší etiketou." },
-        { "it": "El diseño de la etiqueta lo aportaríamos nosotros.", "cz": "Design etikety bychom dodali my." }
+        {
+          "it": "Nos gustaría comercializar su aceite bajo nuestra propia marca.",
+          "cz": "Rádi bychom prodávali váš olej pod naší vlastní značkou."
+        },
+        {
+          "it": "¿Tienen experiencia con marca propia para clientes extranjeros?",
+          "cz": "Máte zkušenosti s vlastní značkou pro zahraniční klienty?"
+        },
+        {
+          "it": "Necesitamos lata de un litro y de tres litros con nuestra etiqueta.",
+          "cz": "Potřebujeme 1L a 3L plechovku s naší etiketou."
+        },
+        {
+          "it": "El diseño de la etiqueta lo aportaríamos nosotros.",
+          "cz": "Design etikety bychom dodali my."
+        }
       ],
       "vocab": [
-        { "it": "marca propia / marca blanca", "cz": "vlastní značka / private label" },
-        { "it": "la etiqueta", "cz": "etiketa, štítek" },
-        { "it": "el diseño", "cz": "design, grafický návrh" },
-        { "it": "comercializar", "cz": "uvést na trh, prodávat" }
+        {
+          "it": "marca propia / marca blanca",
+          "cz": "vlastní značka / private label"
+        },
+        {
+          "it": "la etiqueta",
+          "cz": "etiketa, štítek"
+        },
+        {
+          "it": "el diseño",
+          "cz": "design, grafický návrh"
+        },
+        {
+          "it": "comercializar",
+          "cz": "uvést na trh, prodávat"
+        }
       ],
       "grammar": {
         "title": "Condicional — zdvořilé návrhy",
@@ -306,7 +534,11 @@
       ]
     },
     {
-      "day": 18, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 18,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 19,
@@ -315,16 +547,40 @@
       "emoji": "📦",
       "type": "new",
       "dialogue": [
-        { "it": "¿Podrían enviarnos una muestra antes de hacer el pedido?", "cz": "Mohli byste nám poslat vzorek před objednávkou?" },
-        { "it": "Por supuesto, le enviamos una muestra de medio litro sin cargo.", "cz": "Samozřejmě, pošleme vám vzorek půl litru zdarma." },
-        { "it": "¿Cuáles son las condiciones de pago?", "cz": "Jaké jsou platební podmínky?" },
-        { "it": "Pedimos el cincuenta por ciento por adelantado.", "cz": "Požadujeme 50 % předem." }
+        {
+          "it": "¿Podrían enviarnos una muestra antes de hacer el pedido?",
+          "cz": "Mohli byste nám poslat vzorek před objednávkou?"
+        },
+        {
+          "it": "Por supuesto, le enviamos una muestra de medio litro sin cargo.",
+          "cz": "Samozřejmě, pošleme vám vzorek půl litru zdarma."
+        },
+        {
+          "it": "¿Cuáles son las condiciones de pago?",
+          "cz": "Jaké jsou platební podmínky?"
+        },
+        {
+          "it": "Pedimos el cincuenta por ciento por adelantado.",
+          "cz": "Požadujeme 50 % předem."
+        }
       ],
       "vocab": [
-        { "it": "la muestra", "cz": "vzorek" },
-        { "it": "el pedido", "cz": "objednávka" },
-        { "it": "condiciones de pago", "cz": "platební podmínky" },
-        { "it": "por adelantado", "cz": "předem, zálohou" }
+        {
+          "it": "la muestra",
+          "cz": "vzorek"
+        },
+        {
+          "it": "el pedido",
+          "cz": "objednávka"
+        },
+        {
+          "it": "condiciones de pago",
+          "cz": "platební podmínky"
+        },
+        {
+          "it": "por adelantado",
+          "cz": "předem, zálohou"
+        }
       ],
       "grammar": {
         "title": "¿PODRÍA...? — nejdůležitější obchodní vzorec",
@@ -342,7 +598,11 @@
       ]
     },
     {
-      "day": 20, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 20,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 21,
@@ -351,7 +611,11 @@
       "emoji": "📝",
       "type": "summary",
       "isSummary": true,
-      "summaryOf": [15, 17, 19],
+      "summaryOf": [
+        15,
+        17,
+        19
+      ],
       "reviewAll": true
     },
     {
@@ -361,16 +625,40 @@
       "emoji": "❓",
       "type": "new",
       "dialogue": [
-        { "it": "¿Cuándo es la cosecha de este año?", "cz": "Kdy je letošní sklizeň?" },
-        { "it": "La cosecha empieza en octubre, la temprana en septiembre.", "cz": "Sklizeň začíná v říjnu, brzká v září." },
-        { "it": "¿Trabajan ya con alguna empresa de Europa Central?", "cz": "Spolupracujete již s nějakou firmou ze střední Evropy?" },
-        { "it": "Tenemos clientes en Alemania, Austria y Polonia.", "cz": "Máme klienty v Německu, Rakousku a Polsku." }
+        {
+          "it": "¿Cuándo es la cosecha de este año?",
+          "cz": "Kdy je letošní sklizeň?"
+        },
+        {
+          "it": "La cosecha empieza en octubre, la temprana en septiembre.",
+          "cz": "Sklizeň začíná v říjnu, brzká v září."
+        },
+        {
+          "it": "¿Trabajan ya con alguna empresa de Europa Central?",
+          "cz": "Spolupracujete již s nějakou firmou ze střední Evropy?"
+        },
+        {
+          "it": "Tenemos clientes en Alemania, Austria y Polonia.",
+          "cz": "Máme klienty v Německu, Rakousku a Polsku."
+        }
       ],
       "vocab": [
-        { "it": "la cosecha", "cz": "sklizeň" },
-        { "it": "octubre / septiembre", "cz": "říjen / září" },
-        { "it": "ya / todavía no", "cz": "již/teď / ještě ne" },
-        { "it": "Europa Central", "cz": "střední Evropa" }
+        {
+          "it": "la cosecha",
+          "cz": "sklizeň"
+        },
+        {
+          "it": "octubre / septiembre",
+          "cz": "říjen / září"
+        },
+        {
+          "it": "ya / todavía no",
+          "cz": "již/teď / ještě ne"
+        },
+        {
+          "it": "Europa Central",
+          "cz": "střední Evropa"
+        }
       ],
       "grammar": {
         "title": "YA a TODAVÍA — klíčová slovíčka",
@@ -388,7 +676,11 @@
       ]
     },
     {
-      "day": 23, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 23,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 24,
@@ -397,16 +689,40 @@
       "emoji": "⚙️",
       "type": "new",
       "dialogue": [
-        { "it": "¿Cómo es el proceso de extracción del aceite?", "cz": "Jak vypadá proces extrakce oleje?" },
-        { "it": "Usamos el sistema de extracción en frío, a menos de veintisiete grados.", "cz": "Používáme systém extrakce za studena, pod 27 stupňů." },
-        { "it": "¿En cuánto tiempo se molturan las aceitunas después de la cosecha?", "cz": "Za jak dlouho se melejí olivy po sklizni?" },
-        { "it": "Las aceitunas se procesan en menos de veinticuatro horas.", "cz": "Olivy se zpracovávají do 24 hodin." }
+        {
+          "it": "¿Cómo es el proceso de extracción del aceite?",
+          "cz": "Jak vypadá proces extrakce oleje?"
+        },
+        {
+          "it": "Usamos el sistema de extracción en frío, a menos de veintisiete grados.",
+          "cz": "Používáme systém extrakce za studena, pod 27 stupňů."
+        },
+        {
+          "it": "¿En cuánto tiempo se molturan las aceitunas después de la cosecha?",
+          "cz": "Za jak dlouho se melejí olivy po sklizni?"
+        },
+        {
+          "it": "Las aceitunas se procesan en menos de veinticuatro horas.",
+          "cz": "Olivy se zpracovávají do 24 hodin."
+        }
       ],
       "vocab": [
-        { "it": "la almazara", "cz": "olivový mlýn / lisovna" },
-        { "it": "extracción en frío", "cz": "extrakce za studena" },
-        { "it": "la molturación", "cz": "mletí oliv" },
-        { "it": "la aceituna", "cz": "oliva (plod)" }
+        {
+          "it": "la almazara",
+          "cz": "olivový mlýn / lisovna"
+        },
+        {
+          "it": "extracción en frío",
+          "cz": "extrakce za studena"
+        },
+        {
+          "it": "la molturación",
+          "cz": "mletí oliv"
+        },
+        {
+          "it": "la aceituna",
+          "cz": "oliva (plod)"
+        }
       ],
       "grammar": {
         "title": "SE pasivum — popis procesů",
@@ -424,7 +740,11 @@
       ]
     },
     {
-      "day": 25, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 25,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 26,
@@ -433,16 +753,40 @@
       "emoji": "🤝",
       "type": "new",
       "dialogue": [
-        { "it": "Nos gustaría concertar una reunión en Priego de Córdoba.", "cz": "Rádi bychom domluvili schůzku v Priego de Córdoba." },
-        { "it": "¿Cuándo les vendría bien recibir nuestra visita?", "cz": "Kdy by vám vyhovovala naše návštěva?" },
-        { "it": "Muchas gracias por toda la información y su tiempo.", "cz": "Mnohokrát vám děkuji za všechny informace a váš čas." },
-        { "it": "Quedamos en contacto y le escribo esta semana.", "cz": "Zůstaneme v kontaktu a napíši vám tento týden." }
+        {
+          "it": "Nos gustaría concertar una reunión en Priego de Córdoba.",
+          "cz": "Rádi bychom domluvili schůzku v Priego de Córdoba."
+        },
+        {
+          "it": "¿Cuándo les vendría bien recibir nuestra visita?",
+          "cz": "Kdy by vám vyhovovala naše návštěva?"
+        },
+        {
+          "it": "Muchas gracias por toda la información y su tiempo.",
+          "cz": "Mnohokrát vám děkuji za všechny informace a váš čas."
+        },
+        {
+          "it": "Quedamos en contacto y le escribo esta semana.",
+          "cz": "Zůstaneme v kontaktu a napíši vám tento týden."
+        }
       ],
       "vocab": [
-        { "it": "concertar una reunión", "cz": "domluvit schůzku" },
-        { "it": "la visita", "cz": "návštěva" },
-        { "it": "esta semana", "cz": "tento týden" },
-        { "it": "quedar en contacto", "cz": "zůstat v kontaktu" }
+        {
+          "it": "concertar una reunión",
+          "cz": "domluvit schůzku"
+        },
+        {
+          "it": "la visita",
+          "cz": "návštěva"
+        },
+        {
+          "it": "esta semana",
+          "cz": "tento týden"
+        },
+        {
+          "it": "quedar en contacto",
+          "cz": "zůstat v kontaktu"
+        }
       ],
       "grammar": {
         "title": "ME / NOS GUSTARÍA — rád bych / rádi bychom",
@@ -460,7 +804,11 @@
       ]
     },
     {
-      "day": 27, "title": "Opakování", "theme": "review", "emoji": "🔁", "type": "review"
+      "day": 27,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
     },
     {
       "day": 28,
@@ -469,7 +817,217 @@
       "emoji": "📝",
       "type": "summary",
       "isSummary": true,
-      "summaryOf": [22, 24, 26],
+      "summaryOf": [
+        22,
+        24,
+        26
+      ],
+      "reviewAll": true
+    },
+    {
+      "day": 29,
+      "title": "Telefonát",
+      "theme": "zaklady",
+      "emoji": "📞",
+      "type": "new",
+      "dialogue": [
+        {
+          "it": "Buenos días, le llamo de parte de Moni Olivo. Soy Myrda.",
+          "cz": "Dobrý den, volám jménem Moni Olivo. Jsem Myrda."
+        },
+        {
+          "it": "¿Es un buen momento para hablar, o prefiere que le llame más tarde?",
+          "cz": "Je teď vhodná chvíle na hovor, nebo raději zavolám později?"
+        },
+        {
+          "it": "Disculpe, no le entiendo bien. ¿Puede hablar más despacio, por favor?",
+          "cz": "Promiňte, nerozumím vám dobře. Může mluvit pomaleji, prosím?"
+        },
+        {
+          "it": "Prefiero que me lo envíe por correo. Por escrito le entiendo mucho mejor.",
+          "cz": "Raději mi to pošlete e-mailem. Písemně vám rozumím mnohem lépe."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "llamar (de parte de)",
+          "cz": "volat (jménem / za)"
+        },
+        {
+          "it": "un buen momento",
+          "cz": "vhodná chvíle"
+        },
+        {
+          "it": "entender",
+          "cz": "rozumět"
+        },
+        {
+          "it": "por escrito",
+          "cz": "písemně"
+        }
+      ],
+      "grammar": {
+        "title": "Puedo llamarle vs. Prefiero por escrito",
+        "text": "'¿Puedo llamarle mañana?' = Mohu vám zítra zavolat? (formální nabídka, vy iniciujete). 'Prefiero que me lo envíe por correo' = Raději mi to pošlete e-mailem (elegantní přechod bez odmítnutí). Klíčové: vždy nabídni alternativu, nezavírej dveře."
+      },
+      "pronunciation": {
+        "title": "Telefon zhoršuje andaluský přízvuk",
+        "text": "Přes telefon je andaluský 'seseo' a rychlé tempo ještě náročnější. Zachranné věty: '¿Puede repetir? La línea no está muy clara.' (Může zopakovat? Linka není příliš čistá.) Nebo rovnou: '¿Me lo puede enviar por escrito?' — bez omluvy, přirozeně."
+      },
+      "variations": [
+        "Llamo en relación al aceite DOP que producen. ¿Tienen un momento? (Volám ohledně DOP oleje, který vyrábíte. Mají chvíli?)",
+        "¿Puede repetir? La línea no está muy clara. (Může zopakovat? Linka není příliš čistá.)",
+        "¿Prefiere que le envíe un correo con todos los detalles? (Preferuje, abych mu poslal e-mail se všemi podrobnostmi?)",
+        "⚜LEI⚜¿Podría llamarle en otro momento más conveniente para usted? (Mohl bych zavolat jindy, v čase, který vám více vyhovuje?)"
+      ]
+    },
+    {
+      "day": 30,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 31,
+      "title": "Malý hovor",
+      "theme": "obchod",
+      "emoji": "🤝",
+      "type": "new",
+      "dialogue": [
+        {
+          "it": "¿Cómo está usted hoy? Espero que la cosecha de este año vaya bien.",
+          "cz": "Jak se dnes máte? Doufám, že sklizeň letos probíhá dobře."
+        },
+        {
+          "it": "Gracias, este año ha llovido bien en otoño. Va a ser una buena cosecha.",
+          "cz": "Děkuji, letos na podzim dobře pršelo. Bude dobrá sklizeň."
+        },
+        {
+          "it": "¿Cuántos años lleva su empresa trabajando con el aceite de Priego?",
+          "cz": "Kolik let vaše firma pracuje s olejem z Priego?"
+        },
+        {
+          "it": "Llevamos más de veinte años. El aceite de Priego es nuestra pasión.",
+          "cz": "Více než dvacet let. Olej z Priego je naše vášeň."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "llover / ha llovido",
+          "cz": "pršet / pršelo (minulý čas)"
+        },
+        {
+          "it": "llevar + čas + gerundium",
+          "cz": "dělat něco po dobu... (trvání)"
+        },
+        {
+          "it": "la pasión",
+          "cz": "vášeň"
+        },
+        {
+          "it": "va a ser",
+          "cz": "bude (blízká budoucnost: va a + inf.)"
+        }
+      ],
+      "grammar": {
+        "title": "LLEVAR + čas + gerundium — jak dlouho",
+        "text": "'¿Cuánto tiempo lleva produciendo aceite?' = Jak dlouho vyrábíte olej? 'Llevamos veinte años trabajando con DOP Priego' = Dvacet let pracujeme s DOP Priego. Vzorec: llevar + doba + -ando/-iendo. Klíčové pro small talk o historii firmy."
+      },
+      "pronunciation": {
+        "title": "Intonace otázek vs. tvrzení",
+        "text": "Španělská zjišťovací otázka (ano/ne) = stoupá na konci: '¿Va bien la cosecha?' ↗. Doplňovací otázka (kdo/co/kdy) = klesá: '¿Cuántos años lleva...?' ↘. V telefonu a osobním hovoru je intonace klíčovější než gramatika."
+      },
+      "variations": [
+        "He leído que Priego de Córdoba produce uno de los mejores aceites del mundo. (Četl jsem, že Priego de Córdoba produkuje jeden z nejlepších olejů na světě.)",
+        "¿Cómo afecta la temperatura de este año a la calidad del aceite? (Jak letošní teploty ovlivňují kvalitu oleje?)",
+        "Me interesa mucho la historia de su almazara. ¿Cuándo fue fundada? (Velmi mě zajímá historie vaší lisovny. Kdy byla založena?)",
+        "⚜LEI⚜¿Desde cuándo trabajan ustedes con la DOP Priego de Córdoba? (Od kdy pracujete s DOP Priego de Córdoba?)"
+      ]
+    },
+    {
+      "day": 32,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 33,
+      "title": "Logistika a doprava",
+      "theme": "obchod",
+      "emoji": "🚛",
+      "type": "new",
+      "dialogue": [
+        {
+          "it": "¿En qué condiciones de entrega trabajan? ¿EXW, FOB o DAP?",
+          "cz": "V jakých dodacích podmínkách pracujete? EXW, FOB nebo DAP?"
+        },
+        {
+          "it": "Trabajamos en EXW desde la almazara, pero también podemos hacer FOB Algeciras.",
+          "cz": "Pracujeme v EXW z lisovny, ale můžeme také FOB Algeciras."
+        },
+        {
+          "it": "¿Cuántos días hábiles tarda el transporte por carretera a la República Checa?",
+          "cz": "Kolik pracovních dní trvá silniční přeprava do České republiky?"
+        },
+        {
+          "it": "Aproximadamente cinco o seis días hábiles desde Córdoba.",
+          "cz": "Přibližně pět nebo šest pracovních dní z Córdoby."
+        }
+      ],
+      "vocab": [
+        {
+          "it": "EXW (Ex Works)",
+          "cz": "ze skladu — kupující platí veškerou dopravu"
+        },
+        {
+          "it": "FOB (Free On Board)",
+          "cz": "franco loď — prodávající hradí dopravu do přístavu"
+        },
+        {
+          "it": "DAP (Delivered At Place)",
+          "cz": "dodáno na místo — prodávající hradí dopravu až k tobě"
+        },
+        {
+          "it": "días hábiles",
+          "cz": "pracovní dny (bez víkendů a svátků)"
+        }
+      ],
+      "grammar": {
+        "title": "EN CASO DE — v případě (záchranná fráze)",
+        "text": "'En caso de retraso, ¿a quién me dirijo?' = V případě zpoždění, na koho se obrátím? 'En caso de daño, ¿qué procedimiento siguen?' = V případě poškození, jaký postup následují? Vzorec 'en caso de + podstatné jméno' = univerzální pro logistické problémy."
+      },
+      "pronunciation": {
+        "title": "Incoterms — jak je číst španělsky",
+        "text": "EXW = 'e-xe-do-ble-be' (španělsky W = doble ve). FOB = 'efe-o-be'. DAP = 'de-a-pe'. V praxi Španělé v obchodě často říkají zkratky po anglicku — oba způsoby jsou OK. Algeciras = 'al-che-SI-ras' (g před e = ch)."
+      },
+      "variations": [
+        "¿El precio que me indican es EXW o incluye el transporte? (Je cena, kterou mi uvádíte, EXW nebo zahrnuje dopravu?)",
+        "¿Pueden recomendar algún transportista para el trayecto a Praga? (Mohou doporučit nějakého dopravce na trase do Prahy?)",
+        "En caso de retraso, ¿a quién me dirijo? ¿Tienen número de seguimiento? (V případě zpoždění, na koho se obrátím? Mají číslo pro sledování zásilky?)",
+        "⚜LEI⚜¿Podría incluir el seguro del transporte en el precio, o lo gestiono yo? (Mohl byste zahrnout pojištění přepravy do ceny, nebo to řeším já?)"
+      ]
+    },
+    {
+      "day": 34,
+      "title": "Opakování",
+      "theme": "review",
+      "emoji": "🔁",
+      "type": "review"
+    },
+    {
+      "day": 35,
+      "title": "Shrnutí — Cyklus 5",
+      "theme": "shrnuti",
+      "emoji": "📝",
+      "type": "summary",
+      "isSummary": true,
+      "summaryOf": [
+        29,
+        31,
+        33
+      ],
       "reviewAll": true
     }
   ],
@@ -481,54 +1039,144 @@
         "category": "Jazyková bariéra",
         "emoji": "🆘",
         "phrases": [
-          { "it": "No hablo bien español.", "cz": "Nemluvím dobře španělsky." },
-          { "it": "¿Puede hablar más despacio, por favor?", "cz": "Můžete mluvit pomaleji, prosím?" },
-          { "it": "¿Puede repetir, por favor?", "cz": "Můžete to zopakovat, prosím?" },
-          { "it": "No entiendo. ¿Puede escribirlo?", "cz": "Nerozumím. Můžete to napsat?" },
-          { "it": "Prefiero comunicarme por correo electrónico.", "cz": "Raději komunikuji přes e-mail." },
-          { "it": "¿Hablan inglés en su empresa?", "cz": "Mluví někdo ve vaší firmě anglicky?" },
-          { "it": "Disculpe mi español, estoy aprendiendo.", "cz": "Promiňte moji španělštinu, učím se." }
+          {
+            "it": "No hablo bien español.",
+            "cz": "Nemluvím dobře španělsky."
+          },
+          {
+            "it": "¿Puede hablar más despacio, por favor?",
+            "cz": "Můžete mluvit pomaleji, prosím?"
+          },
+          {
+            "it": "¿Puede repetir, por favor?",
+            "cz": "Můžete to zopakovat, prosím?"
+          },
+          {
+            "it": "No entiendo. ¿Puede escribirlo?",
+            "cz": "Nerozumím. Můžete to napsat?"
+          },
+          {
+            "it": "Prefiero comunicarme por correo electrónico.",
+            "cz": "Raději komunikuji přes e-mail."
+          },
+          {
+            "it": "¿Hablan inglés en su empresa?",
+            "cz": "Mluví někdo ve vaší firmě anglicky?"
+          },
+          {
+            "it": "Disculpe mi español, estoy aprendiendo.",
+            "cz": "Promiňte moji španělštinu, učím se."
+          }
         ]
       },
       {
         "category": "Zdvořilostní fráze",
         "emoji": "🙏",
         "phrases": [
-          { "it": "Buenos días / Buenas tardes.", "cz": "Dobrý den (dopoledne / odpoledne)." },
-          { "it": "Muchas gracias.", "cz": "Mnohokrát děkuji." },
-          { "it": "De nada / Con mucho gusto.", "cz": "Není zač / S radostí." },
-          { "it": "Por favor.", "cz": "Prosím." },
-          { "it": "Disculpe / Perdone.", "cz": "Promiňte (zdvořile)." },
-          { "it": "Ha sido un placer.", "cz": "Bylo potěšením." },
-          { "it": "Hasta pronto / Hasta luego.", "cz": "Brzy na slyšenou / Na shledanou." }
+          {
+            "it": "Buenos días / Buenas tardes.",
+            "cz": "Dobrý den (dopoledne / odpoledne)."
+          },
+          {
+            "it": "Muchas gracias.",
+            "cz": "Mnohokrát děkuji."
+          },
+          {
+            "it": "De nada / Con mucho gusto.",
+            "cz": "Není zač / S radostí."
+          },
+          {
+            "it": "Por favor.",
+            "cz": "Prosím."
+          },
+          {
+            "it": "Disculpe / Perdone.",
+            "cz": "Promiňte (zdvořile)."
+          },
+          {
+            "it": "Ha sido un placer.",
+            "cz": "Bylo potěšením."
+          },
+          {
+            "it": "Hasta pronto / Hasta luego.",
+            "cz": "Brzy na slyšenou / Na shledanou."
+          }
         ]
       },
       {
         "category": "Obchodní fráze — klíčové",
         "emoji": "💼",
         "phrases": [
-          { "it": "Estoy interesado en su aceite de oliva DOP.", "cz": "Zajímám se o váš DOP olivový olej." },
-          { "it": "Quisiera colaborar con su empresa.", "cz": "Rád bych spolupracoval s vaší firmou." },
-          { "it": "¿Cuál es el precio por litro?", "cz": "Jaká je cena za litr?" },
-          { "it": "¿Cuál es el pedido mínimo?", "cz": "Jaké je minimální množství objednávky?" },
-          { "it": "¿Trabajan con marca propia?", "cz": "Spolupracujete na vlastní značce?" },
-          { "it": "¿Podrían enviarnos una muestra?", "cz": "Mohli byste nám poslat vzorek?" },
-          { "it": "Le envío un correo con los detalles.", "cz": "Pošlu vám e-mail s podrobnostmi." },
-          { "it": "Nos gustaría visitar su almazara.", "cz": "Rádi bychom navštívili vaši lisovnu." }
+          {
+            "it": "Estoy interesado en su aceite de oliva DOP.",
+            "cz": "Zajímám se o váš DOP olivový olej."
+          },
+          {
+            "it": "Quisiera colaborar con su empresa.",
+            "cz": "Rád bych spolupracoval s vaší firmou."
+          },
+          {
+            "it": "¿Cuál es el precio por litro?",
+            "cz": "Jaká je cena za litr?"
+          },
+          {
+            "it": "¿Cuál es el pedido mínimo?",
+            "cz": "Jaké je minimální množství objednávky?"
+          },
+          {
+            "it": "¿Trabajan con marca propia?",
+            "cz": "Spolupracujete na vlastní značce?"
+          },
+          {
+            "it": "¿Podrían enviarnos una muestra?",
+            "cz": "Mohli byste nám poslat vzorek?"
+          },
+          {
+            "it": "Le envío un correo con los detalles.",
+            "cz": "Pošlu vám e-mail s podrobnostmi."
+          },
+          {
+            "it": "Nos gustaría visitar su almazara.",
+            "cz": "Rádi bychom navštívili vaši lisovnu."
+          }
         ]
       },
       {
         "category": "Olivový olej — pojmy",
         "emoji": "🫒",
         "phrases": [
-          { "it": "aceite de oliva virgen extra (AOVE)", "cz": "extra panenský olivový olej (EVOO)" },
-          { "it": "¿Cuál es la acidez?", "cz": "Jaká je kyselost?" },
-          { "it": "menos de cero coma dos por ciento", "cz": "méně než 0,2 %" },
-          { "it": "DOP Priego de Córdoba", "cz": "Chráněné označení původu Priego de Córdoba" },
-          { "it": "cosecha temprana", "cz": "brzká sklizeň" },
-          { "it": "extracción en frío", "cz": "extrakce za studena" },
-          { "it": "¿Son envasadora certificada DOP?", "cz": "Jste certifikovaná plnírna DOP?" },
-          { "it": "ficha técnica del aceite", "cz": "technický list oleje" }
+          {
+            "it": "aceite de oliva virgen extra (AOVE)",
+            "cz": "extra panenský olivový olej (EVOO)"
+          },
+          {
+            "it": "¿Cuál es la acidez?",
+            "cz": "Jaká je kyselost?"
+          },
+          {
+            "it": "menos de cero coma dos por ciento",
+            "cz": "méně než 0,2 %"
+          },
+          {
+            "it": "DOP Priego de Córdoba",
+            "cz": "Chráněné označení původu Priego de Córdoba"
+          },
+          {
+            "it": "cosecha temprana",
+            "cz": "brzká sklizeň"
+          },
+          {
+            "it": "extracción en frío",
+            "cz": "extrakce za studena"
+          },
+          {
+            "it": "¿Son envasadora certificada DOP?",
+            "cz": "Jste certifikovaná plnírna DOP?"
+          },
+          {
+            "it": "ficha técnica del aceite",
+            "cz": "technický list oleje"
+          }
         ]
       }
     ]
@@ -553,7 +1201,7 @@
         "notes": [
           "Almazara je nejen výrobní prostor — je to hrdost komunity. Zájem o osobní návštěvu a ukázání úcty k řemeslu otevírá dveře lépe než dobrá cena.",
           "Sklizeň (cosecha) v Priego de Córdoba: říjen–prosinec. Cosecha temprana = září/říjen, nejdražší, ale nejkvalitnější a nejbohatší na polyfenoly.",
-          "Picual = pravděpodobně nejvyšší polyfenoly z DOP Priego odrůd (typicky 300-600+ mg/kg). Polyfenoly = stabilita oleje v 3L plechovce spotřebovávané půl roku.",
+          "Picual = pravděpodobně nejvyšší polyfenoly z DOP Priego odrůd (konkrétní hodnoty se liší šarží od šarže — vždy si vyžádej ficha técnica s aktuální analýzou, necituj žádné číslo bez ní). Vysoké polyfenoly = lepší stabilita oleje v 3L plechovce spotřebovávané po dobu půl roku.",
           "DOP Priego de Córdoba je jednou z nejprestižnějších DOP pro olivový olej na světě. Oceň to v komunikaci — dodavatel na to bude hrdý."
         ]
       },
@@ -582,43 +1230,110 @@
   "verbs": {
     "title": "Slovesa v přítomném čase",
     "subtitle": "Klíčová slovesa pro obchodní komunikaci — pozor: ser ≠ estar (obě = 'být')",
-    "persons": ["yo", "tú", "él / ella / usted", "nosotros", "vosotros", "ellos / ustedes"],
+    "persons": [
+      "yo",
+      "tú",
+      "él / ella / usted",
+      "nosotros",
+      "vosotros",
+      "ellos / ustedes"
+    ],
     "list": [
       {
         "infinitive": "ser",
         "meaning": "být (trvalé: identita, původ)",
-        "forms": ["soy", "eres", "es", "somos", "sois", "son"],
-        "example": { "it": "Somos una empresa checa de importación.", "cz": "Jsme česká importní firma." }
+        "forms": [
+          "soy",
+          "eres",
+          "es",
+          "somos",
+          "sois",
+          "son"
+        ],
+        "example": {
+          "it": "Somos una empresa checa de importación.",
+          "cz": "Jsme česká importní firma."
+        }
       },
       {
         "infinitive": "estar",
         "meaning": "být (stav, poloha, certifikace)",
-        "forms": ["estoy", "estás", "está", "estamos", "estáis", "están"],
-        "example": { "it": "El aceite está certificado DOP.", "cz": "Olej je certifikován DOP." }
+        "forms": [
+          "estoy",
+          "estás",
+          "está",
+          "estamos",
+          "estáis",
+          "están"
+        ],
+        "example": {
+          "it": "El aceite está certificado DOP.",
+          "cz": "Olej je certifikován DOP."
+        }
       },
       {
         "infinitive": "tener",
         "meaning": "mít",
-        "forms": ["tengo", "tienes", "tiene", "tenemos", "tenéis", "tienen"],
-        "example": { "it": "¿Tienen experiencia con marca propia?", "cz": "Máte zkušenosti s vlastní značkou?" }
+        "forms": [
+          "tengo",
+          "tienes",
+          "tiene",
+          "tenemos",
+          "tenéis",
+          "tienen"
+        ],
+        "example": {
+          "it": "¿Tienen experiencia con marca propia?",
+          "cz": "Máte zkušenosti s vlastní značkou?"
+        }
       },
       {
         "infinitive": "poder",
         "meaning": "moct",
-        "forms": ["puedo", "puedes", "puede", "podemos", "podéis", "pueden"],
-        "example": { "it": "¿Puede enviar una muestra, por favor?", "cz": "Můžete poslat vzorek, prosím?" }
+        "forms": [
+          "puedo",
+          "puedes",
+          "puede",
+          "podemos",
+          "podéis",
+          "pueden"
+        ],
+        "example": {
+          "it": "¿Puede enviar una muestra, por favor?",
+          "cz": "Můžete poslat vzorek, prosím?"
+        }
       },
       {
         "infinitive": "querer",
         "meaning": "chtít (quisiera = chtěl bych)",
-        "forms": ["quiero", "quieres", "quiere", "queremos", "queréis", "quieren"],
-        "example": { "it": "Quisiera colaborar con ustedes.", "cz": "Rád bych s vámi spolupracoval. (quisiera = zdvořile)" }
+        "forms": [
+          "quiero",
+          "quieres",
+          "quiere",
+          "queremos",
+          "queréis",
+          "quieren"
+        ],
+        "example": {
+          "it": "Quisiera colaborar con ustedes.",
+          "cz": "Rád bych s vámi spolupracoval. (quisiera = zdvořile)"
+        }
       },
       {
         "infinitive": "necesitar",
         "meaning": "potřebovat",
-        "forms": ["necesito", "necesitas", "necesita", "necesitamos", "necesitáis", "necesitan"],
-        "example": { "it": "Necesito una muestra y la ficha técnica.", "cz": "Potřebuji vzorek a technický list." }
+        "forms": [
+          "necesito",
+          "necesitas",
+          "necesita",
+          "necesitamos",
+          "necesitáis",
+          "necesitan"
+        ],
+        "example": {
+          "it": "Necesito una muestra y la ficha técnica.",
+          "cz": "Potřebuji vzorek a technický list."
+        }
       }
     ]
   }
