@@ -1125,5 +1125,176 @@
         }
       }
     ]
+  },
+  "pronouns": {
+    "intro": "Tady najdeš malá slovíčka, která se hodí pořád: zájmena (já, můj, tenhle, kdo…) a předložky (v, do, s, pro…). Je to celé pohromadě a pořád k dispozici — ať jsi u kterékoli lekce, nemusíš nic hledat ve Slovníku. Klepni nahoře na štítek a skočíš rovnou, kam potřebuješ. ▶ u každého řádku ti to přečte.",
+    "listChip": "Já, ty, on",
+    "listTitle": "Osobní zájmena (já, ty, on…)",
+    "list": [
+      { "it": "io", "cz": "já" },
+      { "it": "tu", "cz": "ty" },
+      { "it": "lui", "cz": "on" },
+      { "it": "lei", "cz": "ona" },
+      { "it": "noi", "cz": "my" },
+      { "it": "voi", "cz": "vy (víc lidí)" },
+      { "it": "loro", "cz": "oni, ony" },
+      { "it": "Lei", "cz": "Vy (zdvořilé vykání jedné osobě — píše se s velkým L)" }
+    ],
+    "note": "Tip: „io“ a „tu“ se v italštině většinou vůbec neříká — sloveso samo prozradí, kdo mluví. Říkáš „Sono di Náchod“, ne „Io sono…“. Zájmeno přidáš jen pro důraz nebo kontrast: „Io prendo un caffè, e tu?“ (Já si dám kávu, a ty?) Vykání je „Lei“ a sloveso jde do 3. osoby jednotného čísla: „Lei è di Bergamo?“ (Jste z Bergama?) Mezi kamarády se tyká („tu“).",
+    "sections": [
+      {
+        "id": "privlastnovaci",
+        "chip": "Můj, tvůj",
+        "title": "Přivlastňovací (můj, tvůj, jeho…)",
+        "intro": "V italštině stojí před přivlastňovacím zájmenem obvykle člen: „il mio libro“, „la mia camera“. Mění se podle rodu a čísla toho, KDO / CO je vlastněno — ne podle majitele.",
+        "items": [
+          { "it": "il mio / la mia", "cz": "můj, moje", "ex": { "it": "Dov'è la mia valigia?", "cz": "Kde je můj kufr?" } },
+          { "it": "i miei / le mie", "cz": "moji, moje (víc věcí)", "ex": { "it": "I miei amici sono di Bergamo.", "cz": "Moji přátelé jsou z Bergama." } },
+          { "it": "il tuo / la tua", "cz": "tvůj, tvoje", "ex": { "it": "Com'è la tua camera?", "cz": "Jaký je tvůj pokoj?" } },
+          { "it": "il suo / la sua", "cz": "jeho, její (i Váš při vykání)", "ex": { "it": "Il suo nome è Marco.", "cz": "Jeho jméno je Marco." } },
+          { "it": "il nostro / la nostra", "cz": "náš, naše", "ex": { "it": "La nostra camera è al terzo piano.", "cz": "Náš pokoj je ve třetím patře." } },
+          { "it": "il vostro / la vostra", "cz": "váš, vaše (víc lidí)", "ex": { "it": "Il vostro tavolo è pronto.", "cz": "Váš stůl je připravený." } },
+          { "it": "il loro / la loro", "cz": "jejich (nemění se)", "ex": { "it": "La loro casa è vicino alla stazione.", "cz": "Jejich dům je blízko nádraží." } }
+        ],
+        "note": "Bez členu se dává u jednotného čísla příbuzných: „mia madre“, „mio fratello“. Ale „i miei genitori“ (množné), „la mia famiglia“, „la mia mamma“ a „la loro madre“ (loro) člen mají. A pozor: „suo“ se řídí rodem VĚCI, ne majitele — „il suo libro“ je jeho i její kniha."
+      },
+      {
+        "id": "ukazovaci",
+        "chip": "Tenhle, ten",
+        "title": "Ukazovací (tenhle, tamten…)",
+        "intro": "Jako když ukazuješ prstem. „Questo“ = tenhle, co je blízko mě. „Quello“ = tamten, o kousek dál. Shoduje se s podstatným jménem v rodě a čísle.",
+        "items": [
+          { "it": "questo / questa", "cz": "tenhle / tahle (blízko)", "ex": { "it": "Vorrei questo, per favore.", "cz": "Chtěl bych tohle, prosím." } },
+          { "it": "questi / queste", "cz": "tihle / tyhle (víc věcí)", "ex": { "it": "Quanto costano queste arance?", "cz": "Kolik stojí tyhle pomeranče?" } },
+          { "it": "quel / quello / quella", "cz": "ten, ta (tamten, tamta)", "ex": { "it": "Quel tavolo è libero?", "cz": "Je tamten stůl volný?" } },
+          { "it": "quelli / quelle", "cz": "tamti / tamty (víc věcí)", "ex": { "it": "Prendo quelli, grazie.", "cz": "Vezmu tamty, děkuji." } },
+          { "it": "questo / quello", "cz": "tohle / tamto (když nevíš, co to je)", "ex": { "it": "Che cos'è questo?", "cz": "Co je tohle?" } }
+        ],
+        "note": "Před podstatným jménem se „quello“ mění jako člen: quel tavolo, quello studente, quell'albergo, quella camera. Zatím stačí poznat, že jde pořád o „tamten“."
+      },
+      {
+        "id": "tazaci",
+        "chip": "Kdo, co, kde",
+        "title": "Tázací slova (kdo, co, kde, kdy…)",
+        "intro": "Otazník je v italštině jen jeden, na konci věty (žádné otočené ¿). Před samohlásku se „dove“ a „come“ často slévají s „è“: „Dov'è…?“, „Com'è…?“",
+        "items": [
+          { "it": "che cosa / cosa", "cz": "co", "ex": { "it": "Cosa prendi?", "cz": "Co si dáš?" } },
+          { "it": "chi", "cz": "kdo", "ex": { "it": "Chi è Monica?", "cz": "Kdo je Monica?" } },
+          { "it": "dove", "cz": "kde", "ex": { "it": "Dov'è la stazione?", "cz": "Kde je nádraží?" } },
+          { "it": "quando", "cz": "kdy", "ex": { "it": "Quando parte il treno?", "cz": "Kdy odjíždí vlak?" } },
+          { "it": "come", "cz": "jak", "ex": { "it": "Come ti chiami?", "cz": "Jak se jmenuješ?" } },
+          { "it": "quanto / quanta / quanti / quante", "cz": "kolik", "ex": { "it": "Quanto costa?", "cz": "Kolik to stojí?" } },
+          { "it": "quale / quali", "cz": "který, jaký (z několika možností)", "ex": { "it": "Quale preferisci?", "cz": "Který máš raději?" } },
+          { "it": "perché", "cz": "proč (a také „protože“)", "ex": { "it": "Perché sei qui?", "cz": "Proč jsi tady?" } },
+          { "it": "di dove", "cz": "odkud", "ex": { "it": "Di dove sei?", "cz": "Odkud jsi?" } },
+          { "it": "con chi", "cz": "s kým", "ex": { "it": "Con chi viaggi?", "cz": "S kým cestuješ?" } },
+          { "it": "a che ora", "cz": "v kolik hodin", "ex": { "it": "A che ora è la colazione?", "cz": "V kolik hodin je snídaně?" } }
+        ],
+        "note": "„Perché“ znamená PROČ i PROTOŽE — podle věty poznáš, co je otázka a co odpověď. Píše se s čárkou (é)."
+      },
+      {
+        "id": "popredlozce",
+        "chip": "Se mnou, pro tebe",
+        "title": "Zájmena po předložce (pro mě, se mnou…)",
+        "intro": "Po předložce se „io“ a „tu“ mění na „me“ a „te“. Ostatní zůstávají (lui, lei, noi, voi, loro). Nikdy tedy „per io“ ani „con tu“.",
+        "items": [
+          { "it": "per me", "cz": "pro mě", "ex": { "it": "Un caffè per me, per favore.", "cz": "Kávu pro mě, prosím." } },
+          { "it": "per te", "cz": "pro tebe", "ex": { "it": "Questo regalo è per te.", "cz": "Tenhle dárek je pro tebe." } },
+          { "it": "con me", "cz": "se mnou", "ex": { "it": "Vieni con me al mercato?", "cz": "Půjdeš se mnou na trh?" } },
+          { "it": "con te", "cz": "s tebou", "ex": { "it": "Mi piace parlare con te.", "cz": "Baví mě s tebou mluvit." } },
+          { "it": "con lui / con lei", "cz": "s ním / s ní", "ex": { "it": "Vado a Bergamo con lui.", "cz": "Jedu do Bergama s ním." } },
+          { "it": "con noi", "cz": "s námi", "ex": { "it": "Venite con noi?", "cz": "Půjdete s námi?" } },
+          { "it": "da me", "cz": "u mě, ke mně", "ex": { "it": "Vieni da me stasera.", "cz": "Přijď dnes večer ke mně." } }
+        ],
+        "note": "„Da me“ = u mě / ke mně (k někomu domů). Podobně „da te“, „da lui“, „da loro“."
+      },
+      {
+        "id": "mala",
+        "chip": "mi, ti, ci…",
+        "title": "Malá zájmena: mi, ti, ci… (ta, co už znáš)",
+        "intro": "Už je znáš z lekcí, jen jsme jim neříkali jménem: v „mi chiamo“ (jmenuji se) a v „mi piace“ (líbí se mi). Tady je máš pohromadě. Zatím stačí, když je poznáš.",
+        "items": [
+          { "it": "mi", "cz": "mi, mě, se (já)", "ex": { "it": "Mi piace il gelato.", "cz": "Zmrzlina se mi líbí." } },
+          { "it": "ti", "cz": "ti, tě, se (ty)", "ex": { "it": "Ti piace il caffè?", "cz": "Chutná ti káva?" } },
+          { "it": "gli", "cz": "jemu (hovorově i jim)", "ex": { "it": "Gli piace il calcio.", "cz": "Fotbal se mu líbí." } },
+          { "it": "le", "cz": "jí", "ex": { "it": "Le piace il vino.", "cz": "Víno jí chutná." } },
+          { "it": "Le", "cz": "Vám (vykání, velké L)", "ex": { "it": "Le piace Bergamo?", "cz": "Líbí se Vám Bergamo?" } },
+          { "it": "ci", "cz": "nám, se (my)", "ex": { "it": "Ci piace la pizza.", "cz": "Pizza nám chutná." } },
+          { "it": "vi", "cz": "vám, se (vy)", "ex": { "it": "Vi piace questo posto?", "cz": "Líbí se vám tohle místo?" } }
+        ],
+        "note": "Chceš zdůraznit, kdo to má rád? Přidáš „a me / a te / a lui…“: „A me piace, e a te?“ (Mně jo, a tobě?) „A loro“ = jim (formálně); v běžné mluvě se řekne „gli piace“."
+      },
+      {
+        "id": "predlozky",
+        "chip": "Předložky",
+        "title": "Předložky: ty nejdůležitější",
+        "intro": "Malá slovíčka, která říkají kam, kde, s kým, čím nebo pro koho. Pozor, nejsou 1:1 jako česky: „a“ pokryje naše „do“, „na“ i „v“ (u měst a času), „in“ zase země a dopravu.",
+        "items": [
+          { "it": "a", "cz": "do, k, na (směr); v (u měst)", "ex": { "it": "Vado a Bergamo.", "cz": "Jedu do Bergama." } },
+          { "it": "a (čas)", "cz": "v (kolik hodin)", "ex": { "it": "Il treno parte alle otto.", "cz": "Vlak odjíždí v osm." } },
+          { "it": "di", "cz": "z (odkud pocházím)", "ex": { "it": "Siamo di Náchod.", "cz": "Jsme z Náchodu." } },
+          { "it": "di (něčí)", "cz": "něčí (komu to patří)", "ex": { "it": "È la borsa di Monica.", "cz": "To je Moničina kabelka." } },
+          { "it": "da", "cz": "od, z", "ex": { "it": "Vengo da Praga.", "cz": "Jedu (přijíždím) z Prahy." } },
+          { "it": "da (k někomu)", "cz": "u, k (člověku)", "ex": { "it": "Vado dal dottore.", "cz": "Jdu k doktorovi." } },
+          { "it": "in", "cz": "v, do (země, region)", "ex": { "it": "Vado in Italia.", "cz": "Jedu do Itálie." } },
+          { "it": "in (dopravní prostředek)", "cz": "čím jedu", "ex": { "it": "Vado a Bergamo in treno.", "cz": "Do Bergama jedu vlakem." } },
+          { "it": "con", "cz": "s", "ex": { "it": "Viaggio con Monica.", "cz": "Cestuji s Monikou." } },
+          { "it": "senza", "cz": "bez", "ex": { "it": "Un caffè senza zucchero, per favore.", "cz": "Kávu bez cukru, prosím." } },
+          { "it": "su", "cz": "na (svrchu); o (téma)", "ex": { "it": "Un libro sulla storia di Bergamo.", "cz": "Kniha o historii Bergama." } },
+          { "it": "per", "cz": "pro; do (směr); na (účel)", "ex": { "it": "Un tavolo per due, per favore.", "cz": "Stůl pro dva, prosím." } },
+          { "it": "per (směr)", "cz": "do (vlak/jízdenka do…)", "ex": { "it": "Un biglietto per Bergamo, per favore.", "cz": "Jízdenku do Bergama, prosím." } },
+          { "it": "tra / fra", "cz": "mezi; za (čas)", "ex": { "it": "Il treno parte tra dieci minuti.", "cz": "Vlak odjíždí za deset minut." } },
+          { "it": "fino a", "cz": "až do", "ex": { "it": "Il museo è aperto fino alle sei.", "cz": "Muzeum je otevřené do šesti." } }
+        ],
+        "note": "„A“ × „in“: „a“ se městy (a Bergamo, a Roma), „in“ se zeměmi a regiony (in Italia, in Lombardia). Před členem se předložky slévají — viz poslední sekce."
+      },
+      {
+        "id": "misto",
+        "chip": "Kde a kdy",
+        "title": "Kde přesně? A kdy?",
+        "intro": "Tyhle skládají dvě slova, ale chovají se jako jedna předložka. Většina končí na „a“ nebo „di“ / „da“.",
+        "items": [
+          { "it": "vicino a", "cz": "blízko", "ex": { "it": "L'albergo è vicino alla stazione.", "cz": "Hotel je blízko nádraží." } },
+          { "it": "lontano da", "cz": "daleko od", "ex": { "it": "Il ristorante è lontano dal centro.", "cz": "Restaurace je daleko od centra." } },
+          { "it": "accanto a", "cz": "vedle", "ex": { "it": "Il bar è accanto alla farmacia.", "cz": "Bar je vedle lékárny." } },
+          { "it": "davanti a", "cz": "před (místo)", "ex": { "it": "Ci vediamo davanti alla stazione.", "cz": "Sejdeme se před nádražím." } },
+          { "it": "dietro (a)", "cz": "za (místo)", "ex": { "it": "La gelateria è dietro la chiesa.", "cz": "Zmrzlinárna je za kostelem." } },
+          { "it": "sopra", "cz": "nad, na (nahoře)", "ex": { "it": "Il gatto è sopra il tavolo.", "cz": "Kočka je na stole." } },
+          { "it": "sotto", "cz": "pod", "ex": { "it": "Il gatto è sotto il tavolo.", "cz": "Kočka je pod stolem." } },
+          { "it": "prima di", "cz": "před (čas)", "ex": { "it": "Prima di cena facciamo l'aperitivo.", "cz": "Před večeří si dáme aperitivo." } },
+          { "it": "dopo", "cz": "po (čas)", "ex": { "it": "Dopo cena facciamo una passeggiata.", "cz": "Po večeři se půjdeme projít." } },
+          { "it": "durante", "cz": "během", "ex": { "it": "Durante l'estate fa molto caldo.", "cz": "Během léta je velké horko." } }
+        ],
+        "note": "Všimni si „vicino alla stazione“ nebo „lontano dal centro“ — předložka se slila s členem. Vysvětlení hned níž."
+      },
+      {
+        "id": "clen",
+        "chip": "al, del, nel…",
+        "title": "Předložka + člen se slévají (al, del, nel…)",
+        "intro": "Tohle je pro Čecha nejvíc „italské“: předložky a, di, da, in, su se před určitým členem (il, lo, la, l') slévají v jedno slovo. Tvar poznáš podle členu: il → al / del / dal / nel / sul, la → alla / della / dalla / nella / sulla.",
+        "items": [
+          { "it": "al / alla / all'", "cz": "a + člen: do, na, k", "ex": { "it": "Vado al mercato e alla stazione.", "cz": "Jdu na trh a na nádraží." } },
+          { "it": "del / della / dell'", "cz": "di + člen: z, od, něčí", "ex": { "it": "Il nome del ristorante.", "cz": "Název restaurace." } },
+          { "it": "dal / dalla / dall'", "cz": "da + člen: od, z, u", "ex": { "it": "Vengo dalla stazione.", "cz": "Jdu z nádraží." } },
+          { "it": "nel / nella / nell'", "cz": "in + člen: v", "ex": { "it": "Il passaporto è nella borsa.", "cz": "Pas je v kabelce." } },
+          { "it": "sul / sulla / sull'", "cz": "su + člen: na", "ex": { "it": "Il menù è sul tavolo.", "cz": "Jídelní lístek je na stole." } }
+        ],
+        "note": "Množné číslo funguje stejně: il → i (nei, sui, dei), lo → gli (negli, sugli), la → le (nelle, sulle). „Con“ a „per“ se obvykle nelepí: „con il“, „per la“."
+      }
+    ]
+  },
+  "help": {
+    "categories": {
+      "Jak appka funguje": "Nahoře jsou dny — každý je buď nová lekce (dialog, slovíčka, gramatika, výslovnost, variace), den opakování, nebo shrnutí celého bloku. Klepneš na den, projdeš si obsah a dole potvrdíš „✓ Mám hotovo“. Hotový den se v liště zabarví a dostane fajfku ✓. Když appku otevřeš, sama tě vrátí na první den, který tě ještě čeká.",
+      "Co najdeš v postranním panelu (☰)": "🧺 Slovník — všechna slovíčka z lekcí, s hledáním. 🔤 Zájmena a předložky — přehled těch nejdůležitějších s příklady, pořád po ruce. 📐 Gramatika a 🔊 Výslovnost — poznámky ze všech lekcí pohromadě. 🔁 Slovesa — časování nejčastějších sloves. 🆘 Fráze — přežití na cestách. 🇮🇹 Zvyklosti — co se hodí vědět o Itálii.",
+      "Co je Opakování": "Po nové lekci přijde den Opakování. Appka ti ukáže české slovo nebo větu, ty si zkus vzpomenout, jak to je italsky, pak klepneš na „Ukázat“ a řekneš appce, jestli sis vzpomněl/a. Když ano, kartička se vrátí až za pár dní (3, 7, 14, později 30). Když ne, je hned k dispozici v dalším kole. Do opakování se dostanou slovíčka z lekcí, které máš označené jako hotové, a všechny fráze z Frázovníku — ty se hodí od prvního dne.",
+      "Když v opakování nic nečeká": "Appka doplní i kartičky, které zrovna nejsou na řadě, ale jdou ti nejhůř — takže máš co procvičovat, i když jsi opakování zrovna dělal/a.",
+      "Vracení se ke starším lekcím": "Klidně se kdykoli vrať na starší den. Když tam znovu klepneš na „✓ Hotovo“, slovíčka té lekce se vrátí do opakování úplně od začátku, jako by byla nová. Pod tlačítkem je i malý odkaz, kterým označení „hotovo“ zrušíš.",
+      "Velké opakování u shrnutí": "Dny 📝 (7, 14, 21, 28) shrnují blok tří lekcí. Tlačítko „Spustit velké opakování“ vezme všechna slovíčka z těch tří lekcí najednou — bez ohledu na to, kdy mají „přijít na řadu“. Je to spíš mezitímní zhodnocení než zkouška. Počítají se jen lekce, které máš označené jako hotové.",
+      "K čemu je bonus po Mám hotovo": "Po každém „✓ Mám hotovo“ vyskočí jako malé překvapení jedna zajímavost o Itálii. Je to jen bonus navíc — všechny si můžeš kdykoli volně projít v záložce Zvyklosti.",
+      "Co znamená značka Lei": "Věty se zlatou značkou „Lei · zdvořile“ jsou vykání. Hodí se u cizích dospělých, v hotelu, v obchodě nebo v restauraci. Mezi kamarády se tyká (tu).",
+      "Proč appka chce povolení zvuku": "Telefony (hlavně iPhone) nedovolí přehrát zvuk, dokud se appky sám/sama nedotkneš. Proto to žluté tlačítko nahoře — klepneš na něj jednou a appka si zvuk „odemkne“. Pak už tlačítko zmizí.",
+      "Kde appka ukládá tvůj postup": "Postup, opakování i odemčení zvuku appka drží jen v tomhle prohlížeči na tomhle zařízení — nikde jinde. Na jiném zařízení (nebo po vymazání dat prohlížeče) začneš od začátku."
+    }
   }
 }
